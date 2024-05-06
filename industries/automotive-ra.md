@@ -26,25 +26,14 @@ content-type: reference-architecture
 
 ---
 
-<!--
-The following line inserts all the attribute definitions. Don't delete.
--->
 {{site.data.keyword.attribute-definition-list}}
 
-<!--
-Don't include "reference architecture" in the following title.
-Specify a title based on a use case. If the architecture has a module
-or tile in the IBM Cloud catalog, match the title to the catalog. See
-https://test.cloud.ibm.com/docs/solution-as-code?topic=solution-as-code-naming-guidance.
--->
-
 # Automotive
-{: #title-id}
+{: #automotive}
 {: toc-content-type="reference-architecture"}
-{: toc-industry="value"}
-{: toc-use-case="value"}
-{: toc-compliance="value"}
-{: toc-version="value"}
+{: toc-industry="Automotive"}
+{: toc-use-case="AutomotiveIndustry"}
+{: toc-version="1.0"}
 
 The IBM Automotive architecture has three layers. Moving from left to right in the diagram, the first layer is the vehicle layer, which is followed by the connected vehicle platform layer and the enterprise hybrid multicloud layer. 
 
