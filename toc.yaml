@@ -1,0 +1,37 @@
+#  Name your file `toc.yaml`
+#  Make sure you include all nav file coding requirements, as defined in https://test.cloud.ibm.com/docs/writing?topic=writing-code-nav
+#  Anything with a fully qualified URL with `http` or `https` will get an external link icon added to the nav entry
+---
+toc:
+  properties:
+    subcollection: industry-ref-arch
+    audience: solution
+    content-type: reference-architecture
+    navigation: hidden
+    href: /docs?tab=solutions
+    path: industry-ref-arch
+    description: This repo hosts reference architectures for various industries.
+    label: Industry solution reference architectures
+
+  entries:
+  - navgroup:
+      id: overview
+      topics:
+      - overview.md
+      - topicgroup:
+          label: Reference architectures by industry
+          topics:
+          - topic: industries/automotive/automotive-ra.md
+            navtitle: Automotive
+          - topic: industries/banking/banking-ra.md
+            navtitle: Banking
+          - topic: industries/insurance/insurance-ra.md
+            navtitle: Insurance
+          - topic: industries/manufacturing/industry-40-ra.md
+            navtitle: Manufacturing
+          - topic: industries/retail/retail-ra.md
+            navtitle: Retail and CPG
+          - topic: industries/supply-chain/supply-chain-ra.md
+            navtitle: Supply chain
+          - topic: industries/telecomm/network-automation-ra.md
+            navtitle: Telecommunications
