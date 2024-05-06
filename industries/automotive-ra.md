@@ -65,7 +65,7 @@ A connected vehicle depends on its supporting networks. Many networks are involv
 
 Include the architecture diagram SVG file that was created by using drawio and the IBM2 library.
 
-![High Level Diagram.]/(images/automotive-high-level-reference-diagram.svg "Automotive High Level Diagram"){: caption="Figure 1. Automotive High Level Diagram" caption-side="bottom"}
+![High Level Diagram.](../images/automotive-high-level-reference-diagram.svg "Automotive High Level Diagram"){: caption="Figure 1. Automotive High Level Diagram" caption-side="bottom"}
 
 If you have a list or text to describe the diagram, include it here.
 
