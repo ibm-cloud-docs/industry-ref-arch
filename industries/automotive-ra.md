@@ -40,7 +40,7 @@ The architecture calls for the ability to deploy scalable apps to the vehicle an
 ## Architecture diagram
 {: #architecture-diagram}
 
-![High Level Diagram.](images/automotive-high-level-reference-diagram.svg "Automotive High Level Diagram"){: caption="Figure 1. Automotive High Level Diagram" caption-side="bottom"}
+![High Level Diagram.](../images/automotive-high-level-reference-diagram.svg "Automotive High Level Diagram"){: caption="Figure 1. Automotive High Level Diagram" caption-side="bottom"}
 
 The IBM Automotive architecture has three layers. Moving from left to right in the diagram, the first layer is the vehicle layer, which is followed by the connected vehicle platform layer and the enterprise hybrid multicloud layer. 
 
