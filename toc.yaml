@@ -21,7 +21,7 @@ toc:
       - topicgroup:
           label: Reference architectures by industry
           topics:
-          - topic: industries/automotive/automotive-ra.md
+          - topic: industries/automotive-ra.md
             navtitle: Automotive
           - topic: industries/banking-ra.md
             navtitle: Banking
