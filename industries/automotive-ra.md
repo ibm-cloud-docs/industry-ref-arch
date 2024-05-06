@@ -6,7 +6,7 @@ lastupdated: "2024-05-06"
 
 keywords: 
 
-subcollection: industry-solutions
+subcollection: industry-ref-arch
 
 authors:
   - name: 
@@ -16,7 +16,7 @@ version: 1.0
 
 deployment-url: 
 
-docs: https://cloud.ibm.com/docs/industry-solutions-url
+docs: https://cloud.ibm.com/docs/industry-ref-arch
 
 use-case: AutomotiveIndustry
 
