@@ -35,9 +35,14 @@ content-type: reference-architecture
 {: toc-use-case="AutomotiveIndustry"}
 {: toc-version="1.0"}
 
-The IBM Automotive architecture has three layers. Moving from left to right in the diagram, the first layer is the vehicle layer, which is followed by the connected vehicle platform layer and the enterprise hybrid multicloud layer. 
-
 The architecture calls for the ability to deploy scalable apps to the vehicle and to analyze and visualize insights from the data that comes from the sensors in and around the vehicle. Several product lines broadly map into the three layers of the architecture: edge services, IoT automotive platform, hybrid cloud with security, and data and AI services that span across the architecture.
+
+## Architecture diagram
+{: #architecture-diagram}
+
+![High Level Diagram.](images/automotive-high-level-reference-diagram.svg "Automotive High Level Diagram"){: caption="Figure 1. Automotive High Level Diagram" caption-side="bottom"}
+
+The IBM Automotive architecture has three layers. Moving from left to right in the diagram, the first layer is the vehicle layer, which is followed by the connected vehicle platform layer and the enterprise hybrid multicloud layer. 
 
 The heart of the IBM connected vehicle AI platform is the mobility services application, which propels the vehicle by using a Human-Machine Interface (HMI). HMI is a haptics- and voice-enabled UX device that fronts the onboard intelligence. People in the vehicle use the HMI to communicate with the vehicle. A version of the HMI is available as a mobile app that automatically synchronizes with the onboard capability. Secure workloads are deployed as microservices.
 
@@ -59,15 +64,6 @@ The challenges in the realm of mobility services and vehicle-to-everything (V2X)
 * Provide comprehensive and flexible APIs to enable application developers to implement cross-domain business applications.
 
 A connected vehicle depends on its supporting networks. Many networks are involved in the architecture, both inside and outside the vehicle. The networks that are inside the vehicle have unique protocols and a wide range of data rates. On the low end of data rates, the Local Interconnect Network (LIN) is used for low-speed applications like sensors and actuators at 20 kbps. On the higher end of data rates, Ethernet is used for high-speed applications such as infotainment and advanced driver-assistance systems (ADAS). Wireless interfaces, such as 3G, 4G, future 5G, BT, wifi, and V2X, operate at 100 Mbps to gigabit speeds.
-
-## Architecture diagram
-{: #architecture-diagram}
-
-Include the architecture diagram SVG file that was created by using drawio and the IBM2 library.
-
-![High Level Diagram.](../images/automotive-high-level-reference-diagram.svg "Automotive High Level Diagram"){: caption="Figure 1. Automotive High Level Diagram" caption-side="bottom"}
-
-If you have a list or text to describe the diagram, include it here.
 
 ## Requirements
 {: #requirements}
