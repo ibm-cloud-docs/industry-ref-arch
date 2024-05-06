@@ -15,7 +15,7 @@ toc:
       id: overview
       topics:
       - overview.md
-  
+
   - navgroup:
       id: reference
       topics:
@@ -24,8 +24,13 @@ toc:
           topics:
           - topic: industries/automotive-ra.md
             navtitle: Automotive
-          - topic: industries/banking-ra.md
-            navtitle: Banking
+          - topicgroup:
+              label: Banking
+              topics:
+              - topic: industries/banking-platform-ra.md
+                navtitle: Banking platform architecture
+              - topic: industries/banking-app-ra.md
+                navtitle: Banking application architecture
           - topic: industries/insurance-ra.md
             navtitle: Insurance
           - topic: industries/industry-40-ra.md
