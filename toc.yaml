@@ -23,15 +23,15 @@ toc:
           topics:
           - topic: industries/automotive/automotive-ra.md
             navtitle: Automotive
-          - topic: industries/banking/banking-ra.md
+          - topic: industries/banking-ra.md
             navtitle: Banking
-          - topic: industries/insurance/insurance-ra.md
+          - topic: industries/insurance-ra.md
             navtitle: Insurance
-          - topic: industries/manufacturing/industry-40-ra.md
+          - topic: industries/industry-40-ra.md
             navtitle: Manufacturing
-          - topic: industries/retail/retail-ra.md
+          - topic: industries/retail-ra.md
             navtitle: Retail and CPG
-          - topic: industries/supply-chain/supply-chain-ra.md
+          - topic: industries/supply-chain-ra.md
             navtitle: Supply chain
-          - topic: industries/telecomm/network-automation-ra.md
+          - topic: industries/network-automation-ra.md
             navtitle: Telecommunications
