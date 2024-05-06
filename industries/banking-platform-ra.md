@@ -31,8 +31,8 @@ content-type: reference-architecture
 # Banking
 {: #banking-platform}
 {: toc-content-type="reference-architecture"}
-{: toc-industry="Banking"}
-{: toc-use-case="Banking and finance"}
+{: toc-industry="Banking, FinancialSector"}
+{: toc-use-case="Banking and finance, Banking customer experience, Banking security, Core banking, Corporate finance, Open banking, Cloud banking"}
 {: toc-version="1.0"}
 
 The IBM Cloud framework for Financial Services provides multiple reference architectures that can be used as a basis for meeting the security and regulatory requirements that are defined in the framework. They implement these main guidance principles:

@@ -31,8 +31,8 @@ content-type: reference-architecture
 # Banking
 {: #banking-app}
 {: toc-content-type="reference-architecture"}
-{: toc-industry="Banking"}
-{: toc-use-case="Banking and finance"}
+{: toc-industry="Banking, FinancialSector"}
+{: toc-use-case="Banking and finance, Banking customer experience, Banking security, Core banking, Corporate finance, Open banking, Cloud banking"}
 {: toc-version="1.0"}
 
 The Banking industry reference architecture uses methods and industry-standard models to drive toward greater IT and business alignment.
