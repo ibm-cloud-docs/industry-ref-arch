@@ -2,11 +2,12 @@
 toc:
   properties:
     subcollection: industry-ref-arch
+    content-type: solution
     audience: solution
     category: solution_docs
     href: /docs?tab=solutions
     path: industry-ref-arch
-    description: This repo hosts reference architectures for various industries.
+    description: Reference architectures for various industries.
     label: Industry solution reference architectures
 
   entries:
