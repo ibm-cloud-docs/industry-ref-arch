@@ -81,7 +81,7 @@ Availability, maintainability, and scalability must also be addressed in a MaaS 
 ## Components
 {: #components}
 
-The following represents a typical set of requirements that are deployed in a connected vehicle solution.
+The following represents a typical set of components that are deployed in a connected vehicle solution.
 
 | Title | Description |
 | ----- | ----------- |
