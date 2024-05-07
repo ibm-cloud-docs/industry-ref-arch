@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-05-06"
+lastupdated: "2024-05-07"
 
 keywords: 
 
@@ -20,7 +20,7 @@ docs: https://cloud.ibm.com/docs/industry-ref-arch
 
 use-case: AutomotiveIndustry
 
-industry: Automotive
+industry: Automotive, Manufacturing
 
 content-type: reference-architecture
 
@@ -28,7 +28,7 @@ content-type: reference-architecture
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Automotive
+# Automotive industry
 {: #automotive}
 {: toc-content-type="reference-architecture"}
 {: toc-industry="Automotive"}
@@ -105,42 +105,26 @@ The following represents a typical set of requirements that are deployed in a co
 {: caption="Table 1. Requirements" caption-side="bottom"}
 
 ## Nonfunctional requirements
+{: #nonfunctional-requirements}
 
 Automotive architectures must satisfy several nonfunctional requirements.
  
 ### Security
+{: #nonfunctional-requirements-security}
+
 Every connection in and out of the connected vehicle must use a secure protocol. All data in transit must be sent over secure protocols and any data that is stored in the cloud or data center must be encrypted. When connected vehicles and related devices are onboarded, use keys, certificates, or tokens.
 
 ### Response time
+{: #nonfunctional-response-time}
+
 Speed is synonymous with mobility. MaaS architectures require minimal latency because decisions must be made quickly whether the communication is between two vehicles or between a moving vehicle and infrastructure.
 
 ### Connectivity
+{: #nonfunctional-requirements-connectivity}
+
 MaaS is a special case of connected cars, and connected cars require on-demand connectivity. The connectivity can be local, to the cloud, or to a satellite.
 
 Availability, maintainability, and scalability must also be addressed in a MaaS architecture.
 
-## Components
-{: #components}
 
-Update the following table below with components that are unique to this architecture. Introduce the table with a sentence. For example, "The following table outlines the products or services used in the architecture for each aspect."
-
-| Aspects | Architecture components | How the component is used |
-| -------------- | -------------- | -------------- |
-| Compute | PowerVS | Web, App, and database servers |
-| Storage | PowerVS | Database servers shared storage for RAC |
-|  | VPC Block Storage | Web app storage if neededt |
-| Networking | VPC Virtual Private Network (VPN) | Remote access to manage resources in private network |
-|  | Virtual Private Gateway & Virtual Private Endpoint (VPE) | For private network access to Cloud Services, e.g., Key Protect, COS, etc. |
-|  | VPC Load Balancers | Application Load Balancing for web servers, app servers, and database servers |
-|  | Public Gateway | For web server access to the internet |
-| Security | IAM | IBM Cloud Identity & Access Management |
-|  | BYO Bastion Host on VPC VSI | Remote access with Privileged Access Management |
-|  | Key protect or HPCS | Hardware security module (HSM) and Key Management Service |
-|  | Secrets Manager | Certificate and Secrets Management |
-| Resiliency | PowerVS | Multiple PowerVS on separate physical servers with VM and Storage anti-affinity policy |
-| Service Management | IBM Cloud Monitoring | Apps and operational monitoring |
-|  | IBM Log Analysis | Apps and operational logs |
-|  | Activity Tracker Event Routing | Audit logs |
-| Other  use if there is  additional aspect(s)  Name Aspect | Cell content | Cell content |
-{: caption="Table 2. Components" caption-side="bottom"}
 
