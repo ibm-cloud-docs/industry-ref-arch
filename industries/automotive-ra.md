@@ -65,8 +65,21 @@ The challenges in the realm of mobility services and vehicle-to-everything (V2X)
 
 A connected vehicle depends on its supporting networks. Many networks are involved in the architecture, both inside and outside the vehicle. The networks that are inside the vehicle have unique protocols and a wide range of data rates. On the low end of data rates, the Local Interconnect Network (LIN) is used for low-speed applications like sensors and actuators at 20 kbps. On the higher end of data rates, Ethernet is used for high-speed applications such as infotainment and advanced driver-assistance systems (ADAS). Wireless interfaces, such as 3G, 4G, future 5G, BT, wifi, and V2X, operate at 100 Mbps to gigabit speeds.
 
-## Requirements
-{: #requirements}
+## Nonfunctional requirements
+{: #nonfunctional-requirements}
+
+Automotive architectures must satisfy several nonfunctional requirements.
+ 
+* Security: Every connection in and out of the connected vehicle must use a secure protocol. All data in transit must be sent over secure protocols and any data that is stored in the cloud or data center must be encrypted. When connected vehicles and related devices are onboarded, use keys, certificates, or tokens.
+
+* Response time: Speed is synonymous with mobility. MaaS architectures require minimal latency because decisions must be made quickly whether the communication is between two vehicles or between a moving vehicle and infrastructure.
+
+* Connectivity: MaaS is a special case of connected cars, and connected cars require on-demand connectivity. The connectivity can be local, to the cloud, or to a satellite.
+
+Availability, maintainability, and scalability must also be addressed in a MaaS architecture.
+
+## Components
+{: #components}
 
 The following represents a typical set of requirements that are deployed in a connected vehicle solution.
 
@@ -101,30 +114,10 @@ The following represents a typical set of requirements that are deployed in a co
 | Enterprise applications| Applications that accomplish business goals and objectives and that can interact with cloud services.            |
 | Edge governance | Provides and enforces appropriate in-service lifespan of devices. Plans smooth, non-disruptive, and secure changeover as new systems and capabilities are introduced.        |
 | Security        | Security is pervasive through all layers of the architecture. Existing systems (such as MES, SCADA, and devices) already have their own security models. Manages both IT and Operations Technology security elements.     |
-| IBM Cloud Pak for Multicloud Management | IBM Cloud Pak for Multicloud Management is the enterprise-grade multicloud management solution for Kubernetes.   |
-{: caption="Table 1. Requirements" caption-side="bottom"}
+| Multicloud Management | A multicloud management solution.   |
+{: caption="Table 1. Components" caption-side="bottom"}
 
-## Nonfunctional requirements
-{: #nonfunctional-requirements}
 
-Automotive architectures must satisfy several nonfunctional requirements.
- 
-### Security
-{: #nonfunctional-requirements-security}
-
-Every connection in and out of the connected vehicle must use a secure protocol. All data in transit must be sent over secure protocols and any data that is stored in the cloud or data center must be encrypted. When connected vehicles and related devices are onboarded, use keys, certificates, or tokens.
-
-### Response time
-{: #nonfunctional-response-time}
-
-Speed is synonymous with mobility. MaaS architectures require minimal latency because decisions must be made quickly whether the communication is between two vehicles or between a moving vehicle and infrastructure.
-
-### Connectivity
-{: #nonfunctional-requirements-connectivity}
-
-MaaS is a special case of connected cars, and connected cars require on-demand connectivity. The connectivity can be local, to the cloud, or to a satellite.
-
-Availability, maintainability, and scalability must also be addressed in a MaaS architecture.
 
 
 
