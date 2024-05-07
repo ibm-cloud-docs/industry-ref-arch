@@ -18,7 +18,7 @@ deployment-url:
 
 docs: https://cloud.ibm.com/docs/industry-ref-arch
 
-use-case: Banking and finance, Banking customer experience, Banking security, Core banking, Corporate finance, Open banking, Cloud banking
+use-case: BankingAndFinanceIndustry, BankingCustomerExperience, BankingSecurity, CloudBanking, CoreBanking, FinanceTransformation, Corporate finance, OpenBanking
 
 industry: Banking, FinancialSector
 
@@ -32,7 +32,7 @@ content-type: reference-architecture
 {: #banking-platform}
 {: toc-content-type="reference-architecture"}
 {: toc-industry="Banking, FinancialSector"}
-{: toc-use-case="Banking and finance, Banking customer experience, Banking security, Core banking, Corporate finance, Open banking, Cloud banking"}
+{: toc-use-case="BankingAndFinanceIndustry, BankingCustomerExperience, BankingSecurity, CloudBanking, CoreBanking, FinanceTransformation, Corporate finance, OpenBanking"}
 {: toc-version="1.0"}
 
 ## Banking platform overview

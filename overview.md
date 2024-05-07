@@ -4,7 +4,7 @@ copyright:
   years: 2024
 lastupdated: "2024-05-07"
 
-keywords: 
+keywords:
 
 subcollection: industry-ref-arch
 
@@ -21,7 +21,9 @@ The industry reference architecture provides reference architectures that can be
 |--------------- | --------------- |
 | Automotive  | Built ...   |
 | Banking  | Built ...   |
+| Insurance  | Built ...   |
 | Manufacturing  | Built ...   |
-| Retail and CPG  | Built ...   |
+| Retail  | Built ...   |
 | Supply chain  | Built ...   |
+| Telecommunications  | Built ...   |
 {: caption="Table 1. Reference architectures for industry solutions" caption-side="top"}
