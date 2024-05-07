@@ -36,5 +36,5 @@ toc:
         navtitle: Retail and CPG
       - topic: industries/supply-chain-ra.md
         navtitle: Supply chain
-      # - topic: industries/network-automation-ra.md
-        # navtitle: Telecommunications
+      - topic: industries/telecomm-ra.md
+        navtitle: Telecommunications
