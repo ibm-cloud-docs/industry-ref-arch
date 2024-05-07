@@ -63,7 +63,7 @@ The Banking industry reference architecture helps address three key industry imp
 
 ![Banking application reference architecture](../images/banking-app-ref-architecture.svg "Banking application reference architecture"){: caption="Figure 1. Banking application reference architecture" caption-side="bottom"}
 
-The IBM Banking industry reference architecture is built over several technical domains. The heart of the architecture has three major domains.
+The IBM Banking industry reference architecture is built over several technical domains. The heart of the architecture has **three major domains**.
 
 Digital agility services
 
@@ -78,7 +78,8 @@ Analytical insights
 :   The analytics insights domain helps financial institutions transform to a cognitive enterprise by gaining the most value from the data in a cost-effective way, irrespective of data origin and data store. Insight services play a key role in delivering differentiated digital experiences to users, achieving higher growth through better insights and predictability. This domain provides capabilities that include an AI and machine learning platform, operational and main data stores, data warehouse and data lake, multicloud data access, integration and data virtualization, intelligent knowledge catalog, and data governance and lineage.
 
 
-Several supporting domains integrate into the architecture domains.
+
+Several **supporting domains** integrate into the architecture domains.
 
 Integration fabric
 

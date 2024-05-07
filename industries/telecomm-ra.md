@@ -84,7 +84,7 @@ Security
 ## Components
 {: #components}
 
-The following represents a typical set of components in insurance applications.
+The following represents a typical set of components in telecommunications applications.
 
 | Title | Description |
 | ----- | ----------- |
