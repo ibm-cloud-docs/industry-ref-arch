@@ -52,7 +52,7 @@ The Banking industry reference architecture includes a zero-trust approach that 
 
 Zero-trust technologies help to discover and classify all assets in the cloud so that your organization can establish the right protections and access controls. By centralizing visibility and policy management, compliance efforts can be maximized while monitoring and reporting are improved.
 
-## Banking application architecture
+## Architecture diagram
 {: #architecture-diagram}
 
 ### Major domains
@@ -96,7 +96,7 @@ This layer provides cloud infrastructure that is designed to build trust and ena
 
 
 ## Nonfunctional requirements
-{: #banking-app-nonfunc-requirements}
+{: #nonfunctional-requirements}
 
 A banking industry architecture has several nonfunctional requirements.
 

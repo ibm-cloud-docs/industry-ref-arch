@@ -28,8 +28,8 @@ toc:
             navtitle: Banking platform architecture
           - topic: industries/banking-app-ra.md
             navtitle: Banking application architecture
-      # - topic: industries/insurance-ra.md
-        # navtitle: Insurance
+      - topic: industries/insurance-ra.md
+        navtitle: Insurance
       - topic: industries/manufacturing-ra.md
         navtitle: Manufacturing
       - topic: industries/retail-ra.md

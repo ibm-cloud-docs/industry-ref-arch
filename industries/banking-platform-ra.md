@@ -35,7 +35,7 @@ content-type: reference-architecture
 {: toc-use-case="Banking and finance, Banking customer experience, Banking security, Core banking, Corporate finance, Open banking, Cloud banking"}
 {: toc-version="1.0"}
 
-## Banking design overview
+## Banking platform overview
 {: #banking-platform-overview}
 
 The IBM Cloud framework for Financial Services provides multiple reference architectures that can be used as a basis for meeting the security and regulatory requirements that are defined in the framework. They implement these main guidance principles:
@@ -62,7 +62,7 @@ The availability of services and data are critical to the operation of business 
 Follow secure development and operations processes and ensure software integrity through automation.
 
 
-## Banking platform architecture
+## Architecture diagram
 {: #architecture-diagram}
 
 
@@ -79,7 +79,7 @@ Here is the VSI on VPC reference architecture. For more information, please refe
 
 
 ## Nonfunctional requirements
-{: #banking-platform-nonfunc-requirements}
+{: #nonfunctional-requirements}
 
 A banking industry architecture has several nonfunctional requirements.
 
