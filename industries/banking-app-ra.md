@@ -28,12 +28,15 @@ content-type: reference-architecture
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Banking
+# Banking applications
 {: #banking-app}
 {: toc-content-type="reference-architecture"}
 {: toc-industry="Banking, FinancialSector"}
 {: toc-use-case="Banking and finance, Banking customer experience, Banking security, Core banking, Corporate finance, Open banking, Cloud banking"}
 {: toc-version="1.0"}
+
+## Banking application overview
+{: #banking-app-overview}
 
 The Banking industry reference architecture uses methods and industry-standard models to drive toward greater IT and business alignment.
 
@@ -52,6 +55,7 @@ Zero-trust technologies help to discover and classify all assets in the cloud so
 ## Banking application architecture
 {: #architecture-diagram}
 
+### Major domains
 The IBM Banking industry reference architecture is built over several technical domains. The heart of the architecture has three major domains.
 
 #### Digital agility services
@@ -92,6 +96,7 @@ This layer provides cloud infrastructure that is designed to build trust and ena
 
 
 ## Nonfunctional requirements
+{: #banking-app-nonfunc-requirements}
 
 A banking industry architecture has several nonfunctional requirements.
 
