@@ -92,12 +92,12 @@ A banking industry architecture has several nonfunctional requirements.
 
 All application systems must implement robust controls over their communication network for these purposes:
 
-  - Safeguarding data
-  - Tightly controlling access to network devices through management approval and subsequent audits
-  - Disabling remote communications when no business need exists
-  - Logging and monitoring remote access
-  - Securing remote access devices
-  - Using strong authentication and encryption to secure communications
+    - Safeguarding data
+    - Tightly controlling access to network devices through management approval and subsequent audits
+    - Disabling remote communications when no business need exists
+    - Logging and monitoring remote access
+    - Securing remote access devices
+    - Using strong authentication and encryption to secure communications
 
 All confidential bank data must be encrypted while in transit on any network or stored on any device on premises, or on a private or public cloud. Confidential bank information, including authentication credentials, must be encrypted while in transit over any public network or wireless network. Key management procedures must be employed that assure the confidentiality, integrity, and availability of cryptographic key material. The use of encryption products must comply with local restrictions and regulations in the relevant country.
 

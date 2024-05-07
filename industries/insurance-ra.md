@@ -76,9 +76,9 @@ Speed is synonymous with a better customer experience. Insurance architectures r
 
 Insurance cloud platforms must provide secured connectivity with many entities:
 
-  - The agents' infrastructure
-  - Ecosystem partners such as utilities, rental car companies, hotels, the DMV, credit agencies, medical providers, payers, auto repair facilities, home repair contractors, cars, and homes
-  - Enterprise and ISV applications that run on premises
+    - The agents' infrastructure
+    - Ecosystem partners such as utilities, rental car companies, hotels, the DMV, credit agencies, medical providers, payers, auto repair facilities, home repair contractors, cars, and homes
+    - Enterprise and ISV applications that run on premises
 
 Availability, maintainability, and scalability must also be addressed in an insurance architecture.
 

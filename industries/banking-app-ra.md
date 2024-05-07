@@ -84,12 +84,12 @@ Several supporting domains integrate into the architecture domains.
 
 The integration platform provides an automated, closed-loop approach that supports multiple styles of integration within a single, unified experience. This layer provides banks with end-to-end enterprise-grade security and encryption and many other capabilities:
 
-  - Unlock business data and assets as APIs
-  - Connect cloud and on-premises applications
-  - Reliably move data with enterprise messaging
-  - Deliver real-time event interactions
-  - Transfer data across any cloud
-  - Deploy and scale with cloud-native architecture and shared foundational services
+    - Unlock business data and assets as APIs
+    - Connect cloud and on-premises applications
+    - Reliably move data with enterprise messaging
+    - Deliver real-time event interactions
+    - Transfer data across any cloud
+    - Deploy and scale with cloud-native architecture and shared foundational services
 
 * Core systems and systems of record
 
@@ -115,12 +115,12 @@ A banking industry architecture has several nonfunctional requirements.
 
 All application systems must implement robust controls over their communication network for these purposes:
 
-  - Safeguarding data
-  - Tightly controlling access to network devices through management approval and subsequent audits
-  - Disabling remote communications when no business need exists
-  - Logging and monitoring remote access
-  - Securing remote access devices
-  - Using strong authentication and encryption to secure communications
+    - Safeguarding data
+    - Tightly controlling access to network devices through management approval and subsequent audits
+    - Disabling remote communications when no business need exists
+    - Logging and monitoring remote access
+    - Securing remote access devices
+    - Using strong authentication and encryption to secure communications
 
 All confidential bank data must be encrypted while in transit on any network or stored on any device on premises, or on a private or public cloud. Confidential bank information, including authentication credentials, must be encrypted while in transit over any public network or wireless network. Key management procedures must be employed that assure the confidentiality, integrity, and availability of cryptographic key material. The use of encryption products must comply with local restrictions and regulations in the relevant country.
 
