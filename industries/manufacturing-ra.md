@@ -54,10 +54,51 @@ You can use the reference architecture to identify your existing and needed func
 
 ![High Level Diagram.](../images/manufacturing-ref-architecture.svg "Manufactuing High Level Diagram"){: caption="Figure 1. Manufacturing High Level Diagram" caption-side="bottom"}
 
-## Requirements
-{: #requirements}
+## Nonfunctional requirements
+{: #nonfunctional-requirements}
 
-The following represents a typical set of requirements that are deployed in a manufacturing solution.
+Manufacturing architectures must satisfy several nonfunctional requirements.
+
+* Performance: 
+  * Function offload to the edge. A centralized configuration is required with offload to the edge for rules-based decision making and streaming analytics.
+  * Modular design. A microservices orientation allows for the modular design of IoT solutions.
+  * Hybrid cloud. It must be possible to deploy the platform layer on premises, on the cloud, or partially on premises and partially on the cloud.
+  * Unstructured and structured data. The system must handle structured data, including real-time messages and bulk transfer, and unstructured data, such as acoustic files, image files, recordings, and text documents.
+  * User response time. The system must provide acceptable response times to users regardless of the volume of data that is being stored and the analytics that is happening in background.
+  * Real-time communications. Support is needed for bidirectional, real-time communications. This requirement is connected to the requirement for support of industrial or device protocols at the edge. Responses might need to happen in less than 1 second depending on the use case. This requirement also drives a need for edge-level analytics and decision making for that class of use cases.
+  * Time series capture granularity. A timestamp at least to the millisecond is required so that even if that data is too late for real-time control, the catch-up analytics can see sequence of events.
+
+* Scalability: 
+  * Horizontal scalability. The system must handle expanding load and data retention needs based on the upscaling of the solution scope, such as the addition of manufacturing facilities and buildings.
+
+* Maintainability:
+  * Adaptable and flexible. It must be possible to rapidly adapt the system to change the process, information, or participants that are being exchanged.
+  * Maintainability and uptime. It must be possible to complete maintenance on the system without violating service level agreements for uptime. In a 24x7 environment, you must be able to do maintenance without completely taking down the system.
+
+* Availability:
+  * High availability. Some IoT solutions and domains demand highly available systems for 24x7 operations. This type of system isn't a critical production application, which means that operations or production don't stop if the IoT solution stops. You must confirm the actual expectation for the system.
+
+* Security:
+  * Device security. Devices must be able to register and communicate securely, such as by using TLS. Unauthorized devices are not allowed.
+  * User security. User logon to any device must be secure and validated for their role. This requirement is connected to the LDAP or user registry that customers use.
+  * Application security. Authorized users of the system that exchange information must be able to do so with the appropriate security controls.
+  * Data security. All persisted data requires secure access.
+
+* Volumetrics:
+  * Big data. The system must be able to store and analyze volumes of data, both historical and current, on scales that are commonly known as *big data*.
+  * Platform speed, capacity, and accessibility. The platform must support high volumes of data transmissions 24x7. This requirement includes support for remote locations and mobile data sources.
+
+* Manageability: 
+  * Incident management. The system must include support for alerting, notification, and incident management.
+  * Solution management. Support must exist for centralized solution management so that system support personnel can quickly determine the root cause of problems and fix them to avoid downtime.
+
+* Usability:
+  * Mobile support. Users must be able to interact in the same roles and on the same tasks on computers and mobile devices, where practical, given mobile capabilities.
+  
+## Components
+{: #components}
+
+The following represents a typical set of components that are deployed in a manufacturing solution.
 
 | Title | Description |
 | ----- | ----------- |
@@ -112,60 +153,5 @@ The following represents a typical set of requirements that are deployed in a ma
 | IoT blockchain network| Blockchain is a shared immutable ledger for recording the history of transactions. A business blockchain, such as IBM Blockchain and the Linux Foundation’s Hyperledger Project, provides a permissioned network with known identities. Unlike Bitcoin, cryptocurrency exchange is not needed.|
 
 
-## Nonfunctional requirements
-{: #nonfunctional-requirements}
 
-Industry 4.0 architectures must satisfy several nonfunctional requirements.
-
-### Performance
-{: #nonfunctional-requirements-performance}
-
-* Function offload to the edge. A centralized configuration is required with offload to the edge for rules-based decision making and streaming analytics.
-* Modular design. A microservices orientation allows for the modular design of IoT solutions.
-* Hybrid cloud. It must be possible to deploy the platform layer on premises, on the cloud, or partially on premises and partially on the cloud.
-* Unstructured and structured data. The system must handle structured data, including real-time messages and bulk transfer, and unstructured data, such as acoustic files, image files, recordings, and text documents.
-* User response time. The system must provide acceptable response times to users regardless of the volume of data that is being stored and the analytics that is happening in background.
-* Real-time communications. Support is needed for bidirectional, real-time communications. This requirement is connected to the requirement for support of industrial or device protocols at the edge. Responses might need to happen in less than 1 second depending on the use case. This requirement also drives a need for edge-level analytics and decision making for that class of use cases.
-* Time series capture granularity. A timestamp at least to the millisecond is required so that even if that data is too late for real-time control, the catch-up analytics can see sequence of events.
-
-### Scalability
-{: #nonfunctional-requirements-scalability}
-
-* Horizontal scalability. The system must handle expanding load and data retention needs based on the upscaling of the solution scope, such as the addition of manufacturing facilities and buildings.
-
-### Maintainability
-{: #nonfunctional-requirements-maintability}
-
-* Adaptable and flexible. It must be possible to rapidly adapt the system to change the process, information, or participants that are being exchanged.
-* Maintainability and uptime. It must be possible to complete maintenance on the system without violating service level agreements for uptime. In a 24x7 environment, you must be able to do maintenance without completely taking down the system.
-
-### Availability
-{: #nonfunctional-requirements-availability}
-
-* High availability. Some IoT solutions and domains demand highly available systems for 24x7 operations. This type of system isn't a critical production application, which means that operations or production don't stop if the IoT solution stops. You must confirm the actual expectation for the system.
-
-### Security
-{: #nonfunctional-requirements-security}
-
-* Device security. Devices must be able to register and communicate securely, such as by using TLS. Unauthorized devices are not allowed.
-* User security. User logon to any device must be secure and validated for their role. This requirement is connected to the LDAP or user registry that customers use.
-* Application security. Authorized users of the system that exchange information must be able to do so with the appropriate security controls.
-* Data security. All persisted data requires secure access.
-
-### Volumetrics
-{: #nonfunctional-requirements-volumetrics}
-
-* Big data. The system must be able to store and analyze volumes of data, both historical and current, on scales that are commonly known as *big data*.
-* Platform speed, capacity, and accessibility. The platform must support high volumes of data transmissions 24x7. This requirement includes support for remote locations and mobile data sources.
-
-### Manageability
-{: #nonfunctional-requirements-manageability}
-
-* Incident management. The system must include support for alerting, notification, and incident management.
-* Solution management. Support must exist for centralized solution management so that system support personnel can quickly determine the root cause of problems and fix them to avoid downtime.
-
-### Usability
-{: #nonfunctional-requirements-usability}
-
-* Mobile support. Users must be able to interact in the same roles and on the same tasks on computers and mobile devices, where practical, given mobile capabilities.
 
