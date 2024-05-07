@@ -28,7 +28,7 @@ content-type: reference-architecture
 
 {{site.data.keyword.attribute-definition-list}}
 
-## Supply chain industry
+# Supply chain industry
 {: #supplychain}
 {: toc-content-type="reference-architecture"}
 {: toc-industry="Manufacturing"}

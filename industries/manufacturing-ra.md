@@ -28,7 +28,7 @@ content-type: reference-architecture
 
 {{site.data.keyword.attribute-definition-list}}
 
-## Manufacturing industry
+# Manufacturing industry
 {: #manufacturing}
 {: toc-content-type="reference-architecture"}
 {: toc-industry="Manufacturing"}

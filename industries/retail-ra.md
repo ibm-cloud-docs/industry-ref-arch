@@ -28,7 +28,7 @@ content-type: reference-architecture
 
 {{site.data.keyword.attribute-definition-list}}
 
-## Retail and consumer packaged goods industry
+# Retail and consumer packaged goods industry
 {: #retail}
 {: toc-content-type="reference-architecture"}
 {: toc-industry="Retail"}
