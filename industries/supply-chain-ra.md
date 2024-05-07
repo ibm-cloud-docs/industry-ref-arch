@@ -28,14 +28,14 @@ content-type: reference-architecture
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Supply chain industry
+# Supply chain use case
 {: #supplychain}
 {: toc-content-type="reference-architecture"}
 {: toc-industry="Manufacturing"}
 {: toc-use-case="SupplyChain"}
 {: toc-version="1.0"}
 
-The Supply chain industry reference architecture is a high-level view of a best-in-class supply chain landscape. It includes all the components that contribute to the major supply chain activities of plan, make, and deliver.
+The supply chain use case reference architecture is a high-level view of a best-in-class supply chain landscape. It includes all the components that contribute to the major supply chain activities of plan, make, and deliver.
 
 The architecture represents any combination of hybrid and multicloud deployments and emphasizes the major resource management areas of orders, transportation, and suppliers. It includes the modern view that the supply chain network’s function is to syndicate data between the major resource areas, warehouse the transaction data, and provide advanced analytics, AI, and data science functions on that data. Those functions, in turn, enrich the business application layer, which delivers value to all stakeholders across all enterprises that are involved in the supply chain function.
 
@@ -46,10 +46,10 @@ The architecture components are based on industry practices that support overall
 
 ![High Level Diagram.](../images/supply-chain-ref-architecture.svg "Supply Chain High Level Diagram"){: caption="Figure 1. Supply Chain High Level Diagram" caption-side="bottom"}
 
-## Requirements
-{: #requirements}
+## Components
+{: #components}
 
-The following represents a typical set of requirements that are deployed in a supply-chain solution.
+The following represents a typical set of components that are deployed in a supply-chain solution.
 
 | Title | Description |
 | ----- | ----------- |
