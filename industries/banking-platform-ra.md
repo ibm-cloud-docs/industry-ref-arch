@@ -38,33 +38,26 @@ content-type: reference-architecture
 
 The IBM Cloud framework for Financial Services provides multiple reference architectures that can be used as a basis for meeting the security and regulatory requirements that are defined in the framework. They implement these main guidance principles:
 
-* Defense in depth
+Defense in depth
+:    Cloud infrastructure provides multiple redundant layers of security safeguards to prevent the compromise of a service from a single point of attack.
 
-Cloud infrastructure provides multiple redundant layers of security safeguards to prevent the compromise of a service from a single point of attack.
+Restricted privileged rights
+:   No individual should be given enough privileges to misuse a system on their own. Give people the minimum required authorizations to complete their activities.
 
-* Restricted privileged rights
+Safeguard data
+:   Data is a valuable asset that needs to be protected from unauthorized disclosure, modification, and destruction.
 
-No individual should be given enough privileges to misuse a system on their own. Give people the minimum required authorizations to complete their activities.
+Continuous controls assurance
+:   Security controls must be configured securely by default through automation and checked continuously for compliance to provide continued controls assurance.
 
-* Safeguard data
+Detection and response
+:   Enable traceability through the logging, monitoring, alerting, and collection of audit information in real time.
 
-Data is a valuable asset that needs to be protected from unauthorized disclosure, modification, and destruction.
+Service resilience
+:   The availability of services and data are critical to the operation of business applications. They incorporate multiple levels of resilience to maintain cloud services even after multiple component failures.
 
-* Continuous controls assurance
-
-Security controls must be configured securely by default through automation and checked continuously for compliance to provide continued controls assurance.
-
-* Detection and response
-
-Enable traceability through the logging, monitoring, alerting, and collection of audit information in real time.
-
-* Service resilience
-
-The availability of services and data are critical to the operation of business applications. They incorporate multiple levels of resilience to maintain cloud services even after multiple component failures.
-
-* Secure by design and software integrity
-
-Follow secure development and operations processes and ensure software integrity through automation.
+Secure by design and software integrity
+:   Follow secure development and operations processes and ensure software integrity through automation.
 
 
 ## Architecture diagram
@@ -88,35 +81,32 @@ Here is the VSI on VPC reference architecture. For more information, please refe
 
 A banking industry architecture has several nonfunctional requirements.
 
-* Security
+Security
+:   All application systems must implement robust controls over their communication network for these purposes:
 
-All application systems must implement robust controls over their communication network for these purposes:
+   - Safeguarding data
+   - Tightly controlling access to network devices through management approval and subsequent audits
+   - Disabling remote communications when no business need exists
+   - Logging and monitoring remote access
+   - Securing remote access devices
+   - Using strong authentication and encryption to secure communications
 
-    - Safeguarding data
-    - Tightly controlling access to network devices through management approval and subsequent audits
-    - Disabling remote communications when no business need exists
-    - Logging and monitoring remote access
-    - Securing remote access devices
-    - Using strong authentication and encryption to secure communications
+:   All confidential bank data must be encrypted while in transit on any network or stored on any device on premises, or on a private or public cloud. Confidential bank information, including authentication credentials, must be encrypted while in transit over any public network or wireless network. Key management procedures must be employed that assure the confidentiality, integrity, and availability of cryptographic key material. The use of encryption products must comply with local restrictions and regulations in the relevant country.
 
-All confidential bank data must be encrypted while in transit on any network or stored on any device on premises, or on a private or public cloud. Confidential bank information, including authentication credentials, must be encrypted while in transit over any public network or wireless network. Key management procedures must be employed that assure the confidentiality, integrity, and availability of cryptographic key material. The use of encryption products must comply with local restrictions and regulations in the relevant country.
+Scalability
+:   The architecture must be able to support large-scale deployments. The largest banks in the world support more than 300 million customers, over a billion transactions per day, and manage assets of more than USD 4 trillion. The architecture must not only meet the current requirements but also anticipate the future needs of a dynamic, growth-focused institution. The infrastructure must boost the business, not limit it. It must provide a demonstrated ability to scale and align to the business objectives as the financial institution grows.
 
-* Scalability
+Availability
+:   Financial institutions need to operate in a 24 x 7 environment. The infrastructure must be available to the customers whenever they want, wherever they are, and on whatever channel they prefer to interact. Mission-critical applications such as payment processing and other core banking transaction processing might require 99.999% availability.
 
-The architecture must be able to support large-scale deployments. The largest banks in the world support more than 300 million customers, over a billion transactions per day, and manage assets of more than USD 4 trillion. The architecture must not only meet the current requirements but also anticipate the future needs of a dynamic, growth-focused institution. The infrastructure must boost the business, not limit it. It must provide a demonstrated ability to scale and align to the business objectives as the financial institution grows.
+Performance and response times
 
-* Availability
+:   Some of the application components in the banking industry need a high throughput, low-latency, real-time performance. Examples include card authorizations and transactions, payment transactions, fraud detection, and securities processing.
 
-Financial institutions need to operate in a 24 x 7 environment. The infrastructure must be available to the customers whenever they want, wherever they are, and on whatever channel they prefer to interact. Mission-critical applications such as payment processing and other core banking transaction processing might require 99.999% availability.
+Business continuity and disaster recovery
 
-* Performance and response times
+:   Application systems must have formal documented recovery plans and tools to identify the resources and specify actions that are required to minimize losses if a disruption occurs to the business unit, its supporting group units, applications, or infrastructure components. Business continuity and disaster recovery (DR) plans ensure timely and orderly recovery of the business, support processes, operations, and technology components within an agreed-upon timeframe. These plans include the orderly restoration of business activities when the primary work environment is unavailable.
 
-Some of the application components in the banking industry need a high throughput, low-latency, real-time performance. Examples include card authorizations and transactions, payment transactions, fraud detection, and securities processing.
+Backup and offsite storage
 
-* Business continuity and disaster recovery
-
-Application systems must have formal documented recovery plans and tools to identify the resources and specify actions that are required to minimize losses if a disruption occurs to the business unit, its supporting group units, applications, or infrastructure components. Business continuity and disaster recovery (DR) plans ensure timely and orderly recovery of the business, support processes, operations, and technology components within an agreed-upon timeframe. These plans include the orderly restoration of business activities when the primary work environment is unavailable.
-
-* Backup and offsite storage
-
-All application systems must have a defined backup policy and associated procedures for backing up data in a scheduled and timely manner. Effective controls must be established to safeguard backed-up data onsite and offsite. They must also ensure that the bank data is securely transferred or transported to and from backup locations and conduct periodic tests to ensure that data can be safely recovered from backup devices.
+:   All application systems must have a defined backup policy and associated procedures for backing up data in a scheduled and timely manner. Effective controls must be established to safeguard backed-up data onsite and offsite. They must also ensure that the bank data is securely transferred or transported to and from backup locations and conduct periodic tests to ensure that data can be safely recovered from backup devices.
