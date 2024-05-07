@@ -61,24 +61,24 @@ MEC and Network Functions Virtualization (NFV) are complementary concepts. The M
 
 Network automation architectures must satisfy several nonfunctional requirements.
 
-* Scalability
+Scalability
 
-The combination of NFV and edge computing brings about scalability and low latency. NFV delivers scalability for networking computing, scaling the network’s resources up or down depending on need, and application usage. Edge computing offers low latency. The latency time from transmitting data to the data center and back to the user equipment (UE) is shortened because the edge is closer to the user, creating a faster computing experience.
+:   The combination of NFV and edge computing brings about scalability and low latency. NFV delivers scalability for networking computing, scaling the network’s resources up or down depending on need, and application usage. Edge computing offers low latency. The latency time from transmitting data to the data center and back to the user equipment (UE) is shortened because the edge is closer to the user, creating a faster computing experience.
 
-* Reliability
+Reliability
 
-Network slicing is possible through NFV. Different partitions (or slices) can be targeted for specific network functions. This practice ensures that high-bandwidth applications receive the networking capabilities they need without hindering the computing functions for other applications that use the same network. This also minimizes the chances for network problems. Edge computing gives network slicing an additional boost in throughput by ensuring consistent services and connectivity for high-bandwidth applications and products.
+:   Network slicing is possible through NFV. Different partitions (or slices) can be targeted for specific network functions. This practice ensures that high-bandwidth applications receive the networking capabilities they need without hindering the computing functions for other applications that use the same network. This also minimizes the chances for network problems. Edge computing gives network slicing an additional boost in throughput by ensuring consistent services and connectivity for high-bandwidth applications and products.
 
-* Security
+Security
 
-Security is a major issue with NFV. You must be aware of the numerous attack points. Only then can a secure solution be architected. A secure NFV environment can be ensured by using a vendor-certified hardware layer and by enabling these capabilities:
+:   Security is a major issue with NFV. You must be aware of the numerous attack points. Only then can a secure solution be architected. A secure NFV environment can be ensured by using a vendor-certified hardware layer and by enabling these capabilities:
 
-    - Trust in the hypervisor layer
-    - Access control in the MANO layer
-    - Network segmentation
-    - Traffic filtering and perimeter security in the network layer
-    - Continuous scanning and monitoring
-    - Proper Identity and Access Management (IAM) and certificate management at the VNF/application layer
+   - Trust in the hypervisor layer
+   - Access control in the MANO layer
+   - Network segmentation
+   - Traffic filtering and perimeter security in the network layer
+   - Continuous scanning and monitoring
+   - Proper Identity and Access Management (IAM) and certificate management at the VNF/application layer
 
 
 ## Components

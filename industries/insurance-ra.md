@@ -64,23 +64,23 @@ This architecture enables customer acquisition, claims, the customer experience 
 
 Insurance industry architectures must satisfy several nonfunctional requirements.
 
-* Security
+Security
 
-Every connection in and out of the enterprise must be secured. All data in transit must be sent over secure protocols and any data that is stored in the cloud or data center must be encrypted. Customers, claims adjusters, and agents must be authenticated and checked for authorization before they're allowed access to business functions. All controls for audits and compliance must be provided.
+:   Every connection in and out of the enterprise must be secured. All data in transit must be sent over secure protocols and any data that is stored in the cloud or data center must be encrypted. Customers, claims adjusters, and agents must be authenticated and checked for authorization before they're allowed access to business functions. All controls for audits and compliance must be provided.
 
-* Response time
+Response time
 
-Speed is synonymous with a better customer experience. Insurance architectures require minimal latency because decisions must be made quickly whether the communication is between customers, adjusters, agents, or ecosystem partners.
+:   Speed is synonymous with a better customer experience. Insurance architectures require minimal latency because decisions must be made quickly whether the communication is between customers, adjusters, agents, or ecosystem partners.
 
-* Connectivity
+Connectivity
 
-Insurance cloud platforms must provide secured connectivity with many entities:
+:   Insurance cloud platforms must provide secured connectivity with many entities:
 
-    - The agents' infrastructure
-    - Ecosystem partners such as utilities, rental car companies, hotels, the DMV, credit agencies, medical providers, payers, auto repair facilities, home repair contractors, cars, and homes
-    - Enterprise and ISV applications that run on premises
+   - The agents' infrastructure
+   - Ecosystem partners such as utilities, rental car companies, hotels, the DMV, credit agencies, medical providers, payers, auto repair facilities, home repair contractors, cars, and homes
+   - Enterprise and ISV applications that run on premises
 
-Availability, maintainability, and scalability must also be addressed in an insurance architecture.
+:   Availability, maintainability, and scalability must also be addressed in an insurance architecture.
 
 
 ## Components

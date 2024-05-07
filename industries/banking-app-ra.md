@@ -40,21 +40,21 @@ The Banking industry reference architecture helps address three key industry imp
 
 * Reshape customer experience
 
-  - Enable extreme convenience and instantaneous fulfillment to customers’ needs in their interactions with the bank
-  - Compete with leaders across industries to provide experiences that meet and exceed customer expectations
-  - Deliver integrated experiences that include the bank and business partners that provide services that add value to customers, such as concierge services
+   - Enable extreme convenience and instantaneous fulfillment to customers’ needs in their interactions with the bank
+   - Compete with leaders across industries to provide experiences that meet and exceed customer expectations
+   - Deliver integrated experiences that include the bank and business partners that provide services that add value to customers, such as concierge services
 
 * Radically lower cost and operating expense
 
-  - Streamline and modernize the application portfolio
-  - Enable a highly efficient and interoperable hybrid multicloud environment
-  - Reduce cost-to-income ratio and increase the return on investment, resulting in a positive operating use
+   - Streamline and modernize the application portfolio
+   - Enable a highly efficient and interoperable hybrid multicloud environment
+   - Reduce cost-to-income ratio and increase the return on investment, resulting in a positive operating use
 
 * Increase security and compliance focus
 
-  - Increase security capabilities that address rapidly changing industry cybersecurity needs
-  - Reduce cost and improve effectiveness of risk and compliance operations
-  - Address financial crimes, risk and compliance, and security and resiliency requirements
+   - Increase security capabilities that address rapidly changing industry cybersecurity needs
+   - Reduce cost and improve effectiveness of risk and compliance operations
+   - Address financial crimes, risk and compliance, and security and resiliency requirements
 
 
 ## Architecture diagram
@@ -65,24 +65,24 @@ The Banking industry reference architecture helps address three key industry imp
 
 The IBM Banking industry reference architecture is built over several technical domains. The heart of the architecture has three major domains.
 
-* Digital agility services
+Digital agility services
 
-The digital agility services layer provides a microservices platform such as Financial Services Workbench, which is used to create container and containerized components running on secured cloud infrastructure. New application components are designed and developed in this platform by using the Domain-Driven Design method and by using BIAN and IFW models. These loosely coupled components interact with each other, external systems, or both through exposed APIs and messaging by using an API gateway and an enterprise event bus. Some examples of application components in this layer include party data management, customer offer, and loan agreement.
+:   The digital agility services layer provides a microservices platform such as Financial Services Workbench, which is used to create container and containerized components running on secured cloud infrastructure. New application components are designed and developed in this platform by using the Domain-Driven Design method and by using BIAN and IFW models. These loosely coupled components interact with each other, external systems, or both through exposed APIs and messaging by using an API gateway and an enterprise event bus. Some examples of application components in this layer include party data management, customer offer, and loan agreement.
 
-* Business automation
+Business automation
 
-The business automation layer provides a proven set of methods and tools that deliver on a value proposition to support the business process reengineering and transformation. Data and AI capabilities are used to collect, prepare, and govern data and to analyze and infuse insights in applications, processes, and business microservices. These capabilities are used for process automation, process mining and modeling, robotic process automation, content services, document processing, decision management, workflow orchestration, and task management.
+:   The business automation layer provides a proven set of methods and tools that deliver on a value proposition to support the business process reengineering and transformation. Data and AI capabilities are used to collect, prepare, and govern data and to analyze and infuse insights in applications, processes, and business microservices. These capabilities are used for process automation, process mining and modeling, robotic process automation, content services, document processing, decision management, workflow orchestration, and task management.
 
-* Analytical insights
+Analytical insights
 
-The analytics insights domain helps financial institutions transform to a cognitive enterprise by gaining the most value from the data in a cost-effective way, irrespective of data origin and data store. Insight services play a key role in delivering differentiated digital experiences to users, achieving higher growth through better insights and predictability. This domain provides capabilities that include an AI and machine learning platform, operational and main data stores, data warehouse and data lake, multicloud data access, integration and data virtualization, intelligent knowledge catalog, and data governance and lineage.
+:   The analytics insights domain helps financial institutions transform to a cognitive enterprise by gaining the most value from the data in a cost-effective way, irrespective of data origin and data store. Insight services play a key role in delivering differentiated digital experiences to users, achieving higher growth through better insights and predictability. This domain provides capabilities that include an AI and machine learning platform, operational and main data stores, data warehouse and data lake, multicloud data access, integration and data virtualization, intelligent knowledge catalog, and data governance and lineage.
 
 
 Several supporting domains integrate into the architecture domains.
 
-* Integration fabric
+Integration fabric
 
-The integration platform provides an automated, closed-loop approach that supports multiple styles of integration within a single, unified experience. This layer provides banks with end-to-end enterprise-grade security and encryption and many other capabilities:
+: The integration platform provides an automated, closed-loop approach that supports multiple styles of integration within a single, unified experience. This layer provides banks with end-to-end enterprise-grade security and encryption and many other capabilities:
 
     - Unlock business data and assets as APIs
     - Connect cloud and on-premises applications
@@ -91,19 +91,19 @@ The integration platform provides an automated, closed-loop approach that suppor
     - Transfer data across any cloud
     - Deploy and scale with cloud-native architecture and shared foundational services
 
-* Core systems and systems of record
+Core systems and systems of record
 
-This layer hosts the core product processing and operational support systems such as general ledger, payment processing, and customer master. In large banks, these applications are high-volume, mission-critical applications and often run on mainframe computers. While mainframe computing provides high availability, low latency, and high performance, banks are moving middle tier subsystems and processes to distributed and cloud environments to achieve better flexibility and deployment options.
+:   This layer hosts the core product processing and operational support systems such as general ledger, payment processing, and customer master. In large banks, these applications are high-volume, mission-critical applications and often run on mainframe computers. While mainframe computing provides high availability, low latency, and high performance, banks are moving middle tier subsystems and processes to distributed and cloud environments to achieve better flexibility and deployment options.
 
-* Banking systems often require data from external data sources such as credit bureaus, regulatory bodies such as FinCEN and OFAC, third-party data aggregators such as Lexis-Nexis and Factiva, and public databases such as CFPB and Law Enforcement. Often, banking systems also connect with ecosystem partners such as payment gateways (SWIFT and ACH), correspondence banks, merchant and card networks, and financial technology (fintech) companies (online payments and crypto). This layer provides and manages secured connectivity to these external data providers and other ecosystem partners.
+:   Banking systems often require data from external data sources such as credit bureaus, regulatory bodies such as FinCEN and OFAC, third-party data aggregators such as Lexis-Nexis and Factiva, and public databases such as CFPB and Law Enforcement. Often, banking systems also connect with ecosystem partners such as payment gateways (SWIFT and ACH), correspondence banks, merchant and card networks, and financial technology (fintech) companies (online payments and crypto). This layer provides and manages secured connectivity to these external data providers and other ecosystem partners.
 
-* Traditional and new banking channels
+Traditional and new banking channels
 
-This domain enables applications that allow customers to interact with the bank through multiple channels such as online banking, mobile applications, brick and mortar branches, e-branches, ATMs, and virtual agents. With the rise of fintechs, a customer can interact with a bank through several new channels. For example, a bank customer can ask about current loan interest rates on Zillow. This domain addresses the specific needs of omnichannel applications, including channel APIs, authentication and authorization, personalization, seamless and integrated cross-channel experience, and customer-centric processes.
+:   This domain enables applications that allow customers to interact with the bank through multiple channels such as online banking, mobile applications, brick and mortar branches, e-branches, ATMs, and virtual agents. With the rise of fintechs, a customer can interact with a bank through several new channels. For example, a bank customer can ask about current loan interest rates on Zillow. This domain addresses the specific needs of omnichannel applications, including channel APIs, authentication and authorization, personalization, seamless and integrated cross-channel experience, and customer-centric processes.
 
-* Secured, compliant cloud infrastructure
+Secured, compliant cloud infrastructure
 
-This layer provides cloud infrastructure that is designed to build trust and enable a transparent public cloud ecosystem with the specific features for security, compliance, and resiliency that financial institutions require. It enables delivery against regulatory imperatives through a consistent set of embedded controls that are designed to meet the needs of financial institutions’ control stakeholders. Those stakeholders include Chief Risk Officers (CROs), Chief Compliance Officers (CCOs), Chief Information Security Officers (CISOs), and Chief Privacy Officers (CPOs).
+:   This layer provides cloud infrastructure that is designed to build trust and enable a transparent public cloud ecosystem with the specific features for security, compliance, and resiliency that financial institutions require. It enables delivery against regulatory imperatives through a consistent set of embedded controls that are designed to meet the needs of financial institutions’ control stakeholders. Those stakeholders include Chief Risk Officers (CROs), Chief Compliance Officers (CCOs), Chief Information Security Officers (CISOs), and Chief Privacy Officers (CPOs).
 
 
 ## Nonfunctional requirements
@@ -111,9 +111,9 @@ This layer provides cloud infrastructure that is designed to build trust and ena
 
 A banking industry architecture has several nonfunctional requirements.
 
-* Security
+Security
 
-All application systems must implement robust controls over their communication network for these purposes:
+:   All application systems must implement robust controls over their communication network for these purposes:
 
     - Safeguarding data
     - Tightly controlling access to network devices through management approval and subsequent audits
@@ -122,25 +122,25 @@ All application systems must implement robust controls over their communication 
     - Securing remote access devices
     - Using strong authentication and encryption to secure communications
 
-All confidential bank data must be encrypted while in transit on any network or stored on any device on premises, or on a private or public cloud. Confidential bank information, including authentication credentials, must be encrypted while in transit over any public network or wireless network. Key management procedures must be employed that assure the confidentiality, integrity, and availability of cryptographic key material. The use of encryption products must comply with local restrictions and regulations in the relevant country.
+:   All confidential bank data must be encrypted while in transit on any network or stored on any device on premises, or on a private or public cloud. Confidential bank information, including authentication credentials, must be encrypted while in transit over any public network or wireless network. Key management procedures must be employed that assure the confidentiality, integrity, and availability of cryptographic key material. The use of encryption products must comply with local restrictions and regulations in the relevant country.
 
-* Scalability
+Scalability
 
-The architecture must be able to support large-scale deployments. The largest banks in the world support more than 300 million customers, over a billion transactions per day, and manage assets of more than USD 4 trillion. The architecture must not only meet the current requirements but also anticipate the future needs of a dynamic, growth-focused institution. The infrastructure must boost the business, not limit it. It must provide a demonstrated ability to scale and align to the business objectives as the financial institution grows.
+:   The architecture must be able to support large-scale deployments. The largest banks in the world support more than 300 million customers, over a billion transactions per day, and manage assets of more than USD 4 trillion. The architecture must not only meet the current requirements but also anticipate the future needs of a dynamic, growth-focused institution. The infrastructure must boost the business, not limit it. It must provide a demonstrated ability to scale and align to the business objectives as the financial institution grows.
 
-* Availability
+Availability
 
-Financial institutions need to operate in a 24 x 7 environment. The infrastructure must be available to the customers whenever they want, wherever they are, and on whatever channel they prefer to interact. Mission-critical applications such as payment processing and other core banking transaction processing might require 99.999% availability.
+:   Financial institutions need to operate in a 24 x 7 environment. The infrastructure must be available to the customers whenever they want, wherever they are, and on whatever channel they prefer to interact. Mission-critical applications such as payment processing and other core banking transaction processing might require 99.999% availability.
 
-* Performance and response times
+Performance and response times
 
-Some of the application components in the banking industry need a high throughput, low-latency, real-time performance. Examples include card authorizations and transactions, payment transactions, fraud detection, and securities processing.
+:   Some of the application components in the banking industry need a high throughput, low-latency, real-time performance. Examples include card authorizations and transactions, payment transactions, fraud detection, and securities processing.
 
-* Business continuity and disaster recovery
+Business continuity and disaster recovery
 
-Application systems must have formal documented recovery plans and tools to identify the resources and specify actions that are required to minimize losses if a disruption occurs to the business unit, its supporting group units, applications, or infrastructure components. Business continuity and disaster recovery (DR) plans ensure timely and orderly recovery of the business, support processes, operations, and technology components within an agreed-upon timeframe. These plans include the orderly restoration of business activities when the primary work environment is unavailable.
+:   Application systems must have formal documented recovery plans and tools to identify the resources and specify actions that are required to minimize losses if a disruption occurs to the business unit, its supporting group units, applications, or infrastructure components. Business continuity and disaster recovery (DR) plans ensure timely and orderly recovery of the business, support processes, operations, and technology components within an agreed-upon timeframe. These plans include the orderly restoration of business activities when the primary work environment is unavailable.
 
-* Backup and offsite storage
+:   Backup and offsite storage
 
 All application systems must have a defined backup policy and associated procedures for backing up data in a scheduled and timely manner. Effective controls must be established to safeguard backed-up data onsite and offsite. They must also ensure that the bank data is securely transferred or transported to and from backup locations and conduct periodic tests to ensure that data can be safely recovered from backup devices.
 
