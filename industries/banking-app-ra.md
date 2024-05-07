@@ -36,6 +36,33 @@ content-type: reference-architecture
 {: toc-version="1.0"}
 
 
+The Banking industry reference architecture helps address three key industry imperatives:
+
+* Reshape customer experience
+
+  - Enable extreme convenience and instantaneous fulfillment to customers’ needs in their interactions with the bank
+  - Compete with leaders across industries to provide experiences that meet and exceed customer expectations
+  - Deliver integrated experiences that include the bank and business partners that provide services that add value to customers, such as concierge services
+
+* Radically lower cost and operating expense
+
+  - Streamline and modernize the application portfolio
+  - Enable a highly efficient and interoperable hybrid multicloud environment
+  - Reduce cost-to-income ratio and increase the return on investment, resulting in a positive operating use
+
+* Increase security and compliance focus
+
+  - Increase security capabilities that address rapidly changing industry cybersecurity needs
+  - Reduce cost and improve effectiveness of risk and compliance operations
+  - Address financial crimes, risk and compliance, and security and resiliency requirements
+
+
+## Architecture diagram
+{: #architecture-diagram}
+
+
+![Banking application reference architecture](../images/banking-app-ref-architecture.svg "Banking application reference architecture"){: caption="Figure 1. Banking application reference architecture" caption-side="bottom"}
+
 The IBM Banking industry reference architecture is built over several technical domains. The heart of the architecture has three major domains.
 
 * Digital agility services
@@ -78,11 +105,6 @@ This domain enables applications that allow customers to interact with the bank 
 
 This layer provides cloud infrastructure that is designed to build trust and enable a transparent public cloud ecosystem with the specific features for security, compliance, and resiliency that financial institutions require. It enables delivery against regulatory imperatives through a consistent set of embedded controls that are designed to meet the needs of financial institutions’ control stakeholders. Those stakeholders include Chief Risk Officers (CROs), Chief Compliance Officers (CCOs), Chief Information Security Officers (CISOs), and Chief Privacy Officers (CPOs).
 
-## Architecture diagram
-{: #architecture-diagram}
-
-
-![Banking application reference architecture](../images/banking-app-ref-architecture.svg "Banking application reference architecture"){: caption="Figure 1. Banking application reference architecture" caption-side="bottom"}
 
 ## Nonfunctional requirements
 {: #nonfunctional-requirements}

@@ -35,8 +35,6 @@ content-type: reference-architecture
 {: toc-use-case="Insurance, Insurance customer experience"}
 {: toc-version="1.0"}
 
-## Insurance overview
-{: #insurance-overview}
 
 The insurance industry faces a range of challenges. A new generation of customers expects individualization, responsiveness, integration, and seamless experiences. Insurance products and services don't always fit this new demand. The industry also faces new sources of competition. Technology-driven insuretechs and non-traditional entrants into the insurance market are increasingly disrupting its business. To effectively compete, the industry must find new business models.
 
@@ -48,6 +46,9 @@ A cloud-based insurance architecture enables the customer experience, claims, an
 ## Architecture diagram
 {: #architecture-diagram}
 
+
+![Insurance reference architecture](../images/insurance-reference-architecture.svg "Insurance reference architecture"){: caption="Figure 1. Insurance reference architecture" caption-side="bottom"}
+
 The IBM Insurance reference architecture is a hybrid cloud architecture that contains three layers. Moving from left to right in the diagram, the first layer depicts personas such as the customer, agent, and claims adjuster. It also includes entities such as homes and cars and ecosystem partners such as the Department of Motor Vehicles (DMV), utilities, hotels, and rental cars that interact with the insurance hybrid cloud platform.
 
 The cloud layer and the enterprise form the hybrid cloud layer. These layers provide a compliant and secure infrastructure for several components and capabilities:
@@ -58,28 +59,26 @@ Applications, processes, and services within and outside the enterprise that are
 This architecture enables customer acquisition, claims, the customer experience process, and business functions.
 
 
-![Insurance reference architecture](../images/insurance-reference-architecture.svg "Insurance reference architecture"){: caption="Figure 1. Insurance reference architecture" caption-side="bottom"}
-
-
-
-
 ## Nonfunctional requirements
 {: #nonfunctional-requirements}
 
 Insurance industry architectures must satisfy several nonfunctional requirements.
 
-### Security
+* Security
+
 Every connection in and out of the enterprise must be secured. All data in transit must be sent over secure protocols and any data that is stored in the cloud or data center must be encrypted. Customers, claims adjusters, and agents must be authenticated and checked for authorization before they're allowed access to business functions. All controls for audits and compliance must be provided.
 
-### Response time
+* Response time
+
 Speed is synonymous with a better customer experience. Insurance architectures require minimal latency because decisions must be made quickly whether the communication is between customers, adjusters, agents, or ecosystem partners.
 
-### Connectivity
+* Connectivity
+
 Insurance cloud platforms must provide secured connectivity with many entities:
 
-* The agents' infrastructure
-* Ecosystem partners such as utilities, rental car companies, hotels, the DMV, credit agencies, medical providers, payers, auto repair facilities, home repair contractors, cars, and homes
-* Enterprise and ISV applications that run on premises
+  - The agents' infrastructure
+  - Ecosystem partners such as utilities, rental car companies, hotels, the DMV, credit agencies, medical providers, payers, auto repair facilities, home repair contractors, cars, and homes
+  - Enterprise and ISV applications that run on premises
 
 Availability, maintainability, and scalability must also be addressed in an insurance architecture.
 
