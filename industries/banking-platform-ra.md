@@ -79,6 +79,7 @@ Here is the VSI on VPC reference architecture. For more information, please refe
 
 
 ## Nonfunctional requirements
+{: #banking-platform-nonfunc-requirements}
 
 A banking industry architecture has several nonfunctional requirements.
 
