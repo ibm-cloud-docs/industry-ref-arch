@@ -36,7 +36,9 @@ content-type: reference-architecture
 {: toc-version="1.0"}
 
 
-The IBM Cloud framework for Financial Services provides multiple reference architectures that can be used as a basis for meeting the security and regulatory requirements that are defined in the framework. They implement these main guidance principles:
+The IBM Cloud framework for Financial Services provides multiple reference architectures that can be used as a basis for meeting the security and regulatory requirements that are defined in the framework.
+
+They implement these main guidance principles:
 
 Defense in depth
 :    Cloud infrastructure provides multiple redundant layers of security safeguards to prevent the compromise of a service from a single point of attack.

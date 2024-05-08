@@ -36,7 +36,7 @@ content-type: reference-architecture
 {: toc-version="1.0"}
 
 
-The Banking industry reference architecture helps address three key industry imperatives:
+The IBM Banking application reference architecture is built over several technical domains, and helps address three key industry imperatives:
 
 * Reshape customer experience
 
@@ -63,7 +63,7 @@ The Banking industry reference architecture helps address three key industry imp
 
 ![Banking application reference architecture](../images/banking-app-ref-architecture.svg "Banking application reference architecture"){: caption="Figure 1. Banking application reference architecture" caption-side="bottom"}
 
-The IBM Banking industry reference architecture is built over several technical domains. The heart of the architecture has **three major domains**.
+The IBM Banking application reference architecture is built over several technical domains. The heart of the architecture has **three major domains**.
 
 Digital agility services
 
@@ -141,9 +141,9 @@ Business continuity and disaster recovery
 
 :   Application systems must have formal documented recovery plans and tools to identify the resources and specify actions that are required to minimize losses if a disruption occurs to the business unit, its supporting group units, applications, or infrastructure components. Business continuity and disaster recovery (DR) plans ensure timely and orderly recovery of the business, support processes, operations, and technology components within an agreed-upon timeframe. These plans include the orderly restoration of business activities when the primary work environment is unavailable.
 
-:   Backup and offsite storage
+Backup and offsite storage
 
-All application systems must have a defined backup policy and associated procedures for backing up data in a scheduled and timely manner. Effective controls must be established to safeguard backed-up data onsite and offsite. They must also ensure that the bank data is securely transferred or transported to and from backup locations and conduct periodic tests to ensure that data can be safely recovered from backup devices.
+:   All application systems must have a defined backup policy and associated procedures for backing up data in a scheduled and timely manner. Effective controls must be established to safeguard backed-up data onsite and offsite. They must also ensure that the bank data is securely transferred or transported to and from backup locations and conduct periodic tests to ensure that data can be safely recovered from backup devices.
 
 
 ## Components

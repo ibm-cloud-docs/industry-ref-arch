@@ -35,6 +35,7 @@ content-type: reference-architecture
 {: toc-use-case="Insurance, Insurance customer experience"}
 {: toc-version="1.0"}
 
+The insurance industry reference architecture helps to address the challenges of the industry.
 
 The insurance industry faces a range of challenges. A new generation of customers expects individualization, responsiveness, integration, and seamless experiences. Insurance products and services don't always fit this new demand. The industry also faces new sources of competition. Technology-driven insuretechs and non-traditional entrants into the insurance market are increasingly disrupting its business. To effectively compete, the industry must find new business models.
 

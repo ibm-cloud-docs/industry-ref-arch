@@ -36,6 +36,8 @@ content-type: reference-architecture
 {: toc-version="1.0"}
 
 
+This is the reference architecture for network edge platform.
+
 If edge computing brings computation and data storage as close to the point where data is created and actions are taken, edge networking provides the two key features of low latency and high bandwidth to deliver the data and applications where required.
 
 While the goal of edge computing is to move computation away from the cloud and data centers toward the edge of the network, the focus of edge networking is on network-specific components. Moving services closer to network edge locations makes content caching, storage, device management, and service delivery easier and contributes to improved transfer rates and response times.
