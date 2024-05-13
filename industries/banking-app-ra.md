@@ -2,23 +2,17 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-05-06"
+lastupdated: "2024-05-13"
 
 keywords:
 
 subcollection: industry-ref-arch
 
-authors:
-  - name:
-    url:
-
 version: 1.0
 
 deployment-url:
 
-docs: https://cloud.ibm.com/docs/industry-ref-arch
-
-use-case: BankingAndFinanceIndustry, BankingCustomerExperience, BankingSecurity, CloudBanking, CoreBanking, FinanceTransformation, Corporate finance, OpenBanking
+use-case: BankingAndFinanceIndustry, BankingCustomerExperience, BankingSecurity
 
 industry: Banking, FinancialSector
 
@@ -28,13 +22,15 @@ content-type: reference-architecture
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Banking applications
+# Reshape customer experience while lowering costs and increasing security
 {: #banking-app}
 {: toc-content-type="reference-architecture"}
 {: toc-industry="Banking, FinancialSector"}
-{: toc-use-case="BankingAndFinanceIndustry, BankingCustomerExperience, BankingSecurity, CloudBanking, CoreBanking, FinanceTransformation, Corporate finance, OpenBanking"}
+{: toc-use-case="BankingAndFinanceIndustry, BankingCustomerExperience, BankingSecurity"}
 {: toc-version="1.0"}
 
+This architecture focuses on the following technical domains: digital agility services, business automation, and analytics insights.
+{: shortdesc}
 
 The IBM Banking application reference architecture is built over several technical domains, and helps address three key industry imperatives:
 
@@ -42,24 +38,23 @@ The IBM Banking application reference architecture is built over several technic
 
    - Enable extreme convenience and instantaneous fulfillment to customers’ needs in their interactions with the bank
    - Compete with leaders across industries to provide experiences that meet and exceed customer expectations
-   - Deliver integrated experiences that include the bank and business partners that provide services that add value to customers, such as concierge services
+   - Deliver integrated experiences that include the bank and Business Partners that provide services that add value to customers, such as concierge services
 
-* Radically lower cost and operating expense
+* Radically lower costs and operating expense
 
    - Streamline and modernize the application portfolio
    - Enable a highly efficient and interoperable hybrid multicloud environment
-   - Reduce cost-to-income ratio and increase the return on investment, resulting in a positive operating use
+   - Reduce the cost-to-income ratio and increase the return on investment, resulting in a positive operating use
 
 * Increase security and compliance focus
 
    - Increase security capabilities that address rapidly changing industry cybersecurity needs
-   - Reduce cost and improve effectiveness of risk and compliance operations
+   - Reduce cost and improve the effectiveness of risk and compliance operations
    - Address financial crimes, risk and compliance, and security and resiliency requirements
 
 
 ## Architecture diagram
 {: #architecture-diagram}
-
 
 ![Banking application reference architecture](../images/banking-app-ref-architecture.svg "Banking application reference architecture"){: caption="Figure 1. Banking application reference architecture" caption-side="bottom"}
 
@@ -78,12 +73,11 @@ Analytical insights
 :   The analytics insights domain helps financial institutions transform to a cognitive enterprise by gaining the most value from the data in a cost-effective way, irrespective of data origin and data store. Insight services play a key role in delivering differentiated digital experiences to users, achieving higher growth through better insights and predictability. This domain provides capabilities that include an AI and machine learning platform, operational and main data stores, data warehouse and data lake, multicloud data access, integration and data virtualization, intelligent knowledge catalog, and data governance and lineage.
 
 
-
 Several **supporting domains** integrate into the architecture domains.
 
 Integration fabric
 
-: The integration platform provides an automated, closed-loop approach that supports multiple styles of integration within a single, unified experience. This layer provides banks with end-to-end enterprise-grade security and encryption and many other capabilities:
+:   The integration platform provides an automated, closed-loop approach that supports multiple styles of integration within a single, unified experience. This layer provides banks with end-to-end enterprise-grade security and encryption and many other capabilities:
 
     - Unlock business data and assets as APIs
     - Connect cloud and on-premises applications
@@ -135,11 +129,11 @@ Availability
 
 Performance and response times
 
-:   Some of the application components in the banking industry need a high throughput, low-latency, real-time performance. Examples include card authorizations and transactions, payment transactions, fraud detection, and securities processing.
+:   Some of the application components in the banking industry need a high-throughput, low-latency, real-time performance. Examples include card authorization and transactions, payment transactions, fraud detection, and securities processing.
 
 Business continuity and disaster recovery
 
-:   Application systems must have formal documented recovery plans and tools to identify the resources and specify actions that are required to minimize losses if a disruption occurs to the business unit, its supporting group units, applications, or infrastructure components. Business continuity and disaster recovery (DR) plans ensure timely and orderly recovery of the business, support processes, operations, and technology components within an agreed-upon timeframe. These plans include the orderly restoration of business activities when the primary work environment is unavailable.
+:   Application systems must have formal documented recovery plans and tools to identify the resources and specify actions that are required to minimize losses if a disruption occurs to the business unit, its supporting group units, applications, or infrastructure components. Business continuity and disaster recovery (DR) plans ensure timely and orderly recovery of the business, support processes, operations, and technology components within an agreed-upon time frame. These plans include the orderly restoration of business activities when the primary work environment is unavailable.
 
 Backup and offsite storage
 
@@ -151,25 +145,25 @@ Backup and offsite storage
 
 The following represents a typical set of components in banking applications.
 
-| Title | Description |
+| Architecture components | How the component is used |
 | ----- | ----------- |
 | Demographics	| Statistical data that is related to users of the bank’s services, which include both individual and organizational customers and prospects. The data can include basic information such as gender, marital status, education, location, and financial behavior. This data is used to provide more personalized services to the bank’s customers.	|
-| FICO	| An analytics company that helps businesses make better decisions that drive higher levels of growth, profitability, and customer satisfaction. A FICO Score is a three-digit number that is based on the information in a customer’s credit reports. The score helps lenders determine the customer’s credit worthiness and ability to make loan payments.	|
+| FICO	| An analytics company that helps businesses make better decisions that drive higher levels of growth, profitability, and customer satisfaction. A FICO Score is a three-digit number that is based on the information in a customer’s credit report. The score helps lenders determine the customer’s credit worthiness and ability to make loan payments.	|
 | Credit	| Credit reporting agencies include Equifax, Experian, and TransUnion, S&P Global, Moody’s and Fitch Ratings. They perform credit assessment and evaluation for individuals and organizations.	|
 | Merchants	| An individual or an organization that is engaged in commerce.	|
 |Correspondence bank	| A financial institution that provides services to another financial institution, which is usually located in another country. A correspondence bank acts as an intermediary or agent, facilitating wire transfers, conducting business transactions, accepting deposits, and gathering documents on behalf of another bank.	|
-| Blockchain network	| A business network for running shared transaction processes that span business partners. The network is implemented by using blockchain technology.	|
+| Blockchain network	| A business network for running shared transaction processes that span Business Partners. The network is implemented by using blockchain technology.	|
 | UI flow	| User interface (UI) flows are system models that show how different pages of a user interface are connected and how a user can step through various pages of the system. UI flows are typically composed of screens and navigation paths between various screens.	|
 | Communications	| The component that is responsible for all communications with customers, including notifications, emails, and voice-based interactions.	|
-| UI microservices	| Running instances of your code inside of a container.	|
+| UI microservices	| Running instances of your code inside a container.	|
 | Assistant	| A conversational AI platform.	|
 | Discovery services	| Discovery services ingest, parse, index, and annotate content by using cognitive functions.	|
 | Weather	| Actionable weather-based insights that are used for driving business processes to optimize operations, reduce costs, improve safety, and uncover new revenue opportunities.	|
-| Visual insights	| An image and video analytics platform.	|
+| Visual Insights	| An image and video analytics platform.	|
 | Data virtualization	| Data virtualization supports the democratization of data across the enterprise and enables seamless consumption by authorized stakeholders across boundaries, such as cloud workloads and on-premises data.	|
 | Knowledge catalog	| The knowledge catalog identifies organization-wide data and is used for educating stakeholders across the enterprise.	|
 | AI studio	| A component that helps to build, run, and manage AI models.	|
-| Customer data	| Enterprise sources of information about customer information, including profile, interactions, and transactions.	|
+| Customer data	| Enterprise sources of information about customer information, including profiles, interactions, and transactions.	|
 | Transaction data	| Enterprise data that is sourced from core systems that are relevant to transaction processing, such as claims data and medical data.	|
 | Customer	| A user who interacts with the bank through various channels, such as web, mobile, or customer service call center.	|
 | Bank teller	| Front-line bank customer service employees that provide basic banking services and complete routine financial transactions for account holders and the public.	|
@@ -177,12 +171,12 @@ The following represents a typical set of components in banking applications.
 | Call center	| A centralized business unit to which phone calls from current and potential customers and distribution partners are directed. It acts as a communication channel that customers use to make requests with the bank or register complaints.|
 |Internet banking	| Banking services that are offered over the internet to customers and prospects. Internet banking provides almost every service that is traditionally available through a local branch, including deposits, transfers, and online bill payments.	|
 | Retail banking	| Financial services that are provided to individual customers.	|
-| Contactless banking	| A secure method for consumers to purchase products or services by using a debit, credit, smartcard, or another payment device by using RFID and other near-field communication technologies.	|
+| Contactless banking	| A secure method for consumers to purchase products or services by using a debit, credit, smart card, or another payment device by using RFID and other near-field communication technologies.	|
 | ATM	| An electronic banking outlet that allows customers to complete basic transactions without the aid of a branch representative or teller.	|
 | Edge services	| Edge services include the network service capabilities that are required to securely and effectively deliver content to client devices and applications through the internet.	|
 | API management	| API management capabilities advertise the available service endpoints that the mobile gateway has access to. These capabilities include API discovery, catalogs, connection of offered APIs to service implementations, and management capabilities such as API versioning. IBM® API Management for Cloud and StrongLoop® provide these capabilities.	|
 | Operational data	| Data that is generated as part of banking business processes and day-to-day operations, including banking transactions and payments.	|
-| Document repository	| A system and database that is used to receive, track, manage and store documents.	|
+| Document repository	| A system and database that is used to receive, track, manage, and store documents.	|
 |Trade finance	| Business processes that are related to financial instruments and products that are used by companies to facilitate international trade and commerce.	|
 | Loan origination	| Business processes that are related to applying for and opening a loan account with the bank.	|
 | Account servicing	| A component to manage customer interactions and communicate with them to resolve their requests and complaints.	|
@@ -220,13 +214,13 @@ The following represents a typical set of components in banking applications.
 | Corporate banking	| Banking systems that handle administration of corporate banking products such as corporate lending, corporate deposits, and trade financing.	|
 | General ledger	| A record-keeping system to maintain the accounting transactions.	|
 | Payments	| A banking system that supports payment transactions, including the various connections to payment networks, central cash management, and check processing.	|
-| Container platform	| A cloud container platform that is built on open-source projects such as Kubernetes. It provides a scalable and reliable cloud platform that runs on your on-premises infrastructure or with resources in a public cloud.	|
+| Container platform	| A cloud container platform that is built on open source projects such as Kubernetes. It provides a scalable and reliable cloud platform that runs on your on-premises infrastructure or with resources in a public cloud.	|
 | VMware	| Aggregated infrastructure resources, including servers, storage, networking, and more. Those resources are presented as a unified, virtualized, shared pool despite underlying differences in hardware.	|
 | Multicloud management	| Multicloud management provides end-to-end management visibility and control for Kubernetes environments. Capabilities include cluster creation, application lifecycle, and security and compliance across data centers and hybrid cloud environments.	|
-| Encryption	| This activity supports encrypting data in motion and at rest by using industry standard CIPHER algorithms.	|
+| Encryption	| This activity supports encrypting data in motion and at rest by using industry-standard CIPHER algorithms.	|
 | Authorization	| Authorization manages access rights, provides single sign-on from any device, enhances security with multifactor authentication, enables user lifecycle management, and protects privileged accounts	|
-| Authentication	| Authentication allows you to add authentication to web and mobile apps without requiring code changes or redeployment. It supports advanced security capabilities, such as multifactor authentication (MFA), single sign-on (SSO), and user-defined password policies.	|
+| Authentication	| You can add authentication to web and mobile apps without requiring code changes or redeployment. It supports advanced security capabilities, such as multifactor authentication (MFA), single sign-on (SSO), and user-defined password policies.	|
 | Security information and event management (SIEM)	| SIEM software gives enterprise security professionals both insight into and a track record of the activities within their IT environment.	|
 | Secure cloud platform	| A cloud that is designed to build trust and enable a transparent public cloud ecosystem with the features for security, compliance, and resiliency that financial institutions require. |
-| Event streams	| Event streams build intelligent, responsive applications that react to events in real time, delivering more engaging client experiences. This component supports managing business events in the form of streams across the enterpise by using industry standard platforms such as Apache Kafka. Event streams support publish-and-subscribe communication, an event log, and simple event stream processing. |
+| Event streams	| Event streams build intelligent, responsive applications that react to events in real time, delivering more engaging client experiences. This component supports managing business events in the form of streams across the enterprise by using industry-standard platforms such as Apache Kafka. Event streams support publish-and-subscribe communication, an event log, and simple event stream processing. |
 {: caption="Table 1. Components" caption-side="bottom"}
