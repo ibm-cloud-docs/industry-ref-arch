@@ -1,0 +1,31 @@
+---
+toc:
+  properties:
+    subcollection: industry-ref-arch
+    content-type: solution
+    audience: solution
+    category: solution_docs
+    href: /docs/industry-ref-arch
+    path: industry-ref-arch
+    description: Reference architectures for various industries.
+    label: Industry reference architectures
+
+  entries:
+  - navgroup:
+      id: architecture
+      topics:
+      - topic: industries/automotive-ra.md
+        navtitle: Automotive industry
+      - topic: industries/banking-app-ra.md
+        navtitle: Banking industry
+      - topic: industries/insurance-ra.md
+        navtitle: Insurance industry
+      - topicgroup:
+          label: Manufacturing industry
+          topics:
+          - topic: industries/manufacturing-ra.md
+          - topic: industries/supply-chain-ra.md
+      - topic: industries/retail-ra.md
+        navtitle: Retail industry
+      - topic: industries/telecomm-ra.md
+        navtitle: Telecommunications industry
