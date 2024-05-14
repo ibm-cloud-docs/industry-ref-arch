@@ -4,13 +4,13 @@ copyright:
   years: 2024
 lastupdated: "2024-05-13"
 
-keywords: 
+keywords:
 
 subcollection: industry-ref-arch
 
 version: 1.0
 
-deployment-url: 
+deployment-url:
 
 use-case: ManufacturingIndustry
 
@@ -22,7 +22,7 @@ content-type: reference-architecture
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Lessons for the cloudification of the plants
+# Manufacturing digitization in hybrid cloud
 {: #manufacturing}
 {: toc-content-type="reference-architecture"}
 {: toc-industry="Manufacturing"}
@@ -53,7 +53,7 @@ You can use the reference architecture to identify your existing and needed func
 
 Manufacturing architectures must satisfy several nonfunctional requirements.
 
-* Performance: 
+* Performance:
    * Function offload to the edge. A centralized configuration is required with offload to the edge for rules-based decision making and streaming analytics.
    * Modular design. A microservices orientation allows for the modular design of IoT solutions.
    * Hybrid cloud. It must be possible to deploy the platform layer on premises, on the cloud, or partially on premises and partially on the cloud.
@@ -62,7 +62,7 @@ Manufacturing architectures must satisfy several nonfunctional requirements.
    * Real-time communications. Support is needed for bidirectional, real-time communications. This requirement is connected to the requirement for support of industrial or device protocols at the edge. Responses might need to happen in less than 1 second depending on the use case. This requirement also drives a need for edge-level analytics and decision making for that class of use cases.
    * Time series capture granularity. A timestamp at least to the millisecond is required so that even if that data is too late for real-time control, the catch-up analytics can see sequence of events.
 
-* Scalability: 
+* Scalability:
    * Horizontal scalability. The system must handle expanding load and data retention needs based on the upscaling of the solution scope, such as the addition of manufacturing facilities and buildings.
 
 * Maintainability:
@@ -82,13 +82,13 @@ Manufacturing architectures must satisfy several nonfunctional requirements.
    * Big data. The system must be able to store and analyze volumes of data, both historical and current, on scales that are commonly known as *big data*.
    * Platform speed, capacity, and accessibility. The platform must support high volumes of data transmissions 24x7. This requirement includes support for remote locations and mobile data sources.
 
-* Manageability: 
+* Manageability:
    * Incident management. The system must include support for alerting, notification, and incident management.
    * Solution management. Support must exist for centralized solution management so that system support personnel can quickly determine the root cause of problems and fix them to avoid downtime.
 
 * Usability:
    * Mobile support. Users must be able to interact in the same roles and on the same tasks on computers and mobile devices, where practical, given mobile capabilities.
-  
+
 ## Components
 {: #components}
 
@@ -146,7 +146,3 @@ The following represents a typical set of components that are deployed in a manu
 | IoT governance | This component provides and enforces the appropriate in-service lifespan of devices. It plans smooth, nondisruptive, and secure changeovers as new systems and capabilities are introduced.|
 | IoT blockchain network| Blockchain is a shared immutable ledger for recording the history of transactions. A business blockchain, such as IBM Blockchain and the Linux Foundation’s Hyperledger Project, provides a permissioned network with known identities. Unlike Bitcoin, cryptocurrency exchange is not needed.|
 {: caption="Table 1. Components" caption-side="bottom"}
-
-
-
-

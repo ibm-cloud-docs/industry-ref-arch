@@ -22,7 +22,7 @@ content-type: reference-architecture
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Low latency and high bandwidth
+# High throughput edge connectivity architecture for Telcos
 {: #telecommunications}
 {: toc-content-type="reference-architecture"}
 {: toc-industry="Telecommunications"}

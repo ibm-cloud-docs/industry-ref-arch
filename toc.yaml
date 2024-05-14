@@ -18,6 +18,8 @@ toc:
         navtitle: Automotive industry
       - topic: industries/banking-app-ra.md
         navtitle: Banking industry
+      - topic: industries/government-ra.md
+        navtitle: Government industry
       - topic: industries/insurance-ra.md
         navtitle: Insurance industry
       - topicgroup:
