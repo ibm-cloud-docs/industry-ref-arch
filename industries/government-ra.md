@@ -53,7 +53,7 @@ After the traffic reaches the OpenShift router: the OpenShift router will use ro
 This gives a pluggable solution without any dependencies outside the Satellite platform to authenticate and authorize users for applications. Often times government organizations will already have an approved local IAM system and that can also be utilized (typically built into the backend applications that are deployed in the environment). When using those: just ensure the network policy is also updated to allow the presentation tier application to utilize the necessary endpoints for the external identity and access management solution.
 
 
-**OpenShift Router -> Application Tier**
+**OpenShift Router -> Application Tier**  \
 **Presentation Tier -> Application Tier**
 
 The application tier will be accessed both externally (directly calling APIs) and through the applications running in the presentation tier. Since the APIs will also be able to be accessed externally: ingress is allowed from the OpenShift-ingress namespace. Additionally: ingress is allowed from the presentation tier to talk to the dependent APIs so the presentation tier can properly display webpages. For egress: the application tier is allowed to talk to the backend database (deployed locally in the cluster) and OpenShift DNS.
