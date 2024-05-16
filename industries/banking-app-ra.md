@@ -22,7 +22,7 @@ content-type: reference-architecture
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Reshape customer experience while lowering costs and increasing security
+# Banking application architecture for better agility, automation, and insights
 {: #banking-app}
 {: toc-content-type="reference-architecture"}
 {: toc-industry="Banking, FinancialSector"}
