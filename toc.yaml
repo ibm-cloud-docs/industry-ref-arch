@@ -9,7 +9,6 @@ toc:
     path: industry-ref-arch
     description: Reference architectures for various industries.
     label: Industry reference architectures
-
   entries:
   - navgroup:
       id: architecture
