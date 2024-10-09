@@ -38,7 +38,7 @@ The architecture components are based on industry practices that support overall
 ## Architecture diagram
 {: #architecture-diagram}
 
-![High-Level Diagram.](../images/supply-chain-ref-architecture.svg "Supply Chain High-Level Diagram"){: caption="Figure 1. Supply Chain High Level Diagram" caption-side="bottom"}
+![High-Level Diagram.](../images/supply-chain-ref-architecture.svg "Supply Chain High-Level Diagram"){: caption="Supply Chain High Level Diagram" caption-side="bottom"}
 
 ## Components
 {: #components}
@@ -68,6 +68,4 @@ The following represents a typical set of components that are deployed in a supp
 | Supplier provenance| Supplier provenance refers to the system responsible for tracking supplier performance, quality of output, compliance with regulatory standards, and general standing with the industry. |
 | Supplier registry  | A supplier information database, the supplier registry is meant to aid in the search, identification, and onboarding of suppliers to a supply chain network.|
 | Enterprise resource planning  | Enterprise resource planning involves the planning and management of all resources that are required for processing, shipping, and billing of orders as well as the forecasting the need and replenishment of supplies.|
-{: caption="Table 1. Components" caption-side="bottom"}
-
-
+{: caption="Components" caption-side="bottom"}

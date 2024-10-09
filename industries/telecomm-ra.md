@@ -43,7 +43,7 @@ Network in this context refers to what communications service providers (CSPs) o
 {: #architecture-diagram}
 
 
-![Telecommunications reference architecture](../images/network-automation-ref-diagram.svg "Telecommunications reference architecture"){: caption="Figure 1. Telecommunications reference architecture" caption-side="bottom"}
+![Telecommunications reference architecture](../images/network-automation-ref-diagram.svg "Telecommunications reference architecture"){: caption="Telecommunications reference architecture" caption-side="bottom"}
 
 The major components in a network automation architecture are the hardware resources, virtualization layer, management and orchestration, OSS/BSS, and applications. Multi-access edge computing (MEC) enables the implementation of MEC applications as software-only entities that run on top of a virtualization infrastructure, which is located in or close to the network edge.
 
@@ -117,4 +117,4 @@ The following represents a typical set of components in telecommunications appli
 | Control plane	| The control plane controls the distributed user plane function (UPF).	|
 | The device edge	| The device edge holds equipment that can be connected directly to the public or private macro-cellular network, a local area network (wifi, wired Ethernet), or a private 5G small cell radio network.	|
 | Metro area network	| The enterprise edge can also be connected to the wireline metropolitan area network by using Carrier Ethernet or MPLS VPN. |
-{: caption="Table 1. Components" caption-side="bottom"}
+{: caption="Components" caption-side="bottom"}

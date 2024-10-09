@@ -35,7 +35,7 @@ This architecture demonstrates how you can deploy scalable apps to a vehicle and
 ## Architecture diagram
 {: #architecture-diagram}
 
-![High-Level Diagram.](../images/automotive-high-level-reference-diagram.svg "Automotive High-Level Diagram"){: caption="Figure 1. Automotive High Level Diagram" caption-side="bottom"}
+![High-Level Diagram.](../images/automotive-high-level-reference-diagram.svg "Automotive High-Level Diagram"){: caption="Automotive High Level Diagram" caption-side="bottom"}
 
 The IBM Automotive architecture has three layers: the vehicle layer, the connected vehicle platform layer, and the enterprise hybrid multicloud layer. 
 
@@ -110,9 +110,4 @@ The following represents a typical set of components that are deployed in a conn
 | Edge governance | Provides and enforces the appropriate in-service lifespan of devices. Plans a smooth, nondisruptive, and secure changeover as new systems and capabilities are introduced.        |
 | Security        | Security is pervasive through all layers of the architecture. Existing systems (such as MES, SCADA, and devices) already have their own security models. Manages both IT and Operations Technology security elements.     |
 | Multicloud Management | A multicloud management solution.   |
-{: caption="Table 1. Components" caption-side="bottom"}
-
-
-
-
-
+{: caption="Components" caption-side="bottom"}

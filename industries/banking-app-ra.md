@@ -56,7 +56,7 @@ The IBM Banking application reference architecture is built over several technic
 ## Architecture diagram
 {: #architecture-diagram}
 
-![Banking application reference architecture](../images/banking-app-ref-architecture.svg "Banking application reference architecture"){: caption="Figure 1. Banking application reference architecture" caption-side="bottom"}
+![Banking application reference architecture](../images/banking-app-ref-architecture.svg "Banking application reference architecture"){: caption="Banking application reference architecture" caption-side="bottom"}
 
 The IBM Banking application reference architecture is built over several technical domains. The heart of the architecture has **three major domains**.
 
@@ -223,4 +223,4 @@ The following represents a typical set of components in banking applications.
 | Security information and event management (SIEM)	| SIEM software gives enterprise security professionals both insight into and a track record of the activities within their IT environment.	|
 | Secure cloud platform	| A cloud that is designed to build trust and enable a transparent public cloud ecosystem with the features for security, compliance, and resiliency that financial institutions require. |
 | Event streams	| Event streams build intelligent, responsive applications that react to events in real time, delivering more engaging client experiences. This component supports managing business events in the form of streams across the enterprise by using industry-standard platforms such as Apache Kafka. Event streams support publish-and-subscribe communication, an event log, and simple event stream processing. |
-{: caption="Table 1. Components" caption-side="bottom"}
+{: caption="Components" caption-side="bottom"}

@@ -37,5 +37,4 @@ The Retail and consumer packaged goods industry reference architecture is a high
 ## Architecture diagram
 {: #architecture-diagram}
 
-![High Level Diagram.](../images/retail-ref-architecture.svg "Retail High Level Diagram"){: caption="Figure 1. Retail High Level Diagram" caption-side="bottom"}
-
+![High Level Diagram.](../images/retail-ref-architecture.svg "Retail High Level Diagram"){: caption="Retail High Level Diagram" caption-side="bottom"}
