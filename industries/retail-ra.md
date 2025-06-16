@@ -1,16 +1,16 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2024-05-13"
+   years: 2024, 2025
+lastupdated: "2025-06-16"
 
-keywords: 
+keywords:
 
 subcollection: industry-ref-arch
 
 version: 1.0
 
-deployment-url: 
+deployment-url:
 
 use-case: RetailIndustry
 

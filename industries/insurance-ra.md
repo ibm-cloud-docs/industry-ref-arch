@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2024-05-13"
+   years: 2024, 2025
+lastupdated: "2025-06-16"
 
 keywords:
 
@@ -29,7 +29,7 @@ content-type: reference-architecture
 {: toc-use-case="Insurance, Insurance customer experience"}
 {: toc-version="1.0"}
 
-A cloud-based insurance architecture enables the customer experience, claims, and acquisition processes by using insights from data and AI for decision making in processes, applications, and business services. 
+A cloud-based insurance architecture enables the customer experience, claims, and acquisition processes by using insights from data and AI for decision making in processes, applications, and business services.
 
 The architecture assists secured integration across its own applications, personas interacting with the insurance enterprise, and enterprise ecosystem partners, service providers, and regulatory institution applications.
 
