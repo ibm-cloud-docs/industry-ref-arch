@@ -38,7 +38,7 @@ The architecture assists secured integration across its own applications, person
 {: #architecture-diagram}
 
 
-![Insurance reference architecture](../images/insurance-reference-architecture.svg "Insurance reference architecture"){: caption="Figure 1. Insurance reference architecture" caption-side="bottom"}
+![Insurance reference architecture](../images/insurance-reference-architecture.svg "Insurance reference architecture"){: caption="Insurance reference architecture" caption-side="bottom"}
 
 The IBM Insurance reference architecture is a hybrid cloud architecture that contains three layers. The first layer depicts personas such as the customer, agent, and claims adjuster. It also includes entities such as homes and cars and ecosystem partners such as the Department of Motor Vehicles (DMV), utilities, hotels, and rental cars that interact with the insurance hybrid cloud platform.
 
@@ -139,4 +139,4 @@ The following represents a typical set of components in insurance applications.
 | Authentication	| A component that delivers identity and access management services for solution users.	|
 | Security, Information and Event Management (SIEM)	| SIEM software gives enterprise security professionals both insight into and a track record of the activities within their IT environment.	|
 | Insurance security and compliance framework	| Insurance industry-informed IBM cloud controls that are required to operate securely with sensitive data in the public cloud.|
-{: caption="Table 1. Components" caption-side="bottom"}
+{: caption="Components" caption-side="bottom"}

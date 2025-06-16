@@ -46,7 +46,7 @@ You can use the reference architecture to identify your existing and needed func
 ## Architecture diagram
 {: #architecture-diagram}
 
-![High-Level Diagram.](../images/manufacturing-ref-architecture.svg "Manufacturing High-Level Diagram"){: caption="Figure 1. Manufacturing High Level Diagram" caption-side="bottom"}
+![High-Level Diagram.](../images/manufacturing-ref-architecture.svg "Manufacturing High-Level Diagram"){: caption="Manufacturing High Level Diagram" caption-side="bottom"}
 
 ## Nonfunctional requirements
 {: #nonfunctional-requirements}
@@ -145,4 +145,4 @@ The following represents a typical set of components that are deployed in a manu
 | Visualization support | Visualization support for the IoT solution is provided by a user interface that you can use to explore and interact with data from the data repositories and actionable insight applications or enterprise applications.|
 | IoT governance | This component provides and enforces the appropriate in-service lifespan of devices. It plans smooth, nondisruptive, and secure changeovers as new systems and capabilities are introduced.|
 | IoT blockchain network| Blockchain is a shared immutable ledger for recording the history of transactions. A business blockchain, such as IBM Blockchain and the Linux Foundation’s Hyperledger Project, provides a permissioned network with known identities. Unlike Bitcoin, cryptocurrency exchange is not needed.|
-{: caption="Table 1. Components" caption-side="bottom"}
+{: caption="Components" caption-side="bottom"}
