@@ -1,0 +1,64 @@
+{
+  "version": 2,
+  "title": "Industry reference architectures",
+  "introduction": "This repo contains industry reference architectures.",
+  "product_page": "https://www.ibm.com/industries",
+  "deployment_url": "https://cloud.ibm.com/docs/industry-ref-arch",
+
+  "section_topics": {
+    "links": [
+      {
+        "title": "Reference architecture for banking industry",
+        "href": "/docs/industry-ref-arch?topic=industry-ref-arch-banking-app"
+      },
+      {
+        "title": "Reference architecture for insurance industry",
+        "href": "/docs/industry-ref-arch?topic=industry-ref-arch-insurance"
+      },
+      {
+        "title": "Reference architecture for telecommunications industry",
+        "href": "/docs/industry-ref-arch?topic=industry-ref-arch-telecommunications"
+      }
+    ]
+  },
+
+  "section_highlights": [
+    {
+      "title": "IBM Solutions",
+      "description": "IBM trusted solutions to solve your business challenges.",
+      "href": "https://www.ibm.com/solutions",
+      "type": "training",
+      "recommended": true
+    },
+    {
+      "title": "IBM Cloud Solutions",
+      "description": "Run enterprise, mission-critical workloads in IBM Cloud",
+      "href": "https://www.ibm.com/cloud/solutions",
+      "type": "training",
+      "recommended": true
+    }
+  ],
+
+  "section_architectures": [
+    {
+      "title": "Running secure workloads in IBM Cloud",
+      "href": "/docs/secure-enterprise",
+      "deployable": false
+    },
+    {
+      "title": "Gen AI Pattern for Watsonx on IBM Cloud",
+      "href": "/docs/pattern-genai-rag?topic=pattern-genai-rag-genai-pattern",
+      "deployable": false
+    }
+  ],
+
+  "section_updates": {
+    "view_more": "/docs?tab=solutions",
+    "tiles": [
+      {
+        "date": "1 April 2024",
+        "title": "Added reference architectures"
+      }
+    ]
+  }
+}
