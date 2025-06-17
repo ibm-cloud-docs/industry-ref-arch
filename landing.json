@@ -8,32 +8,32 @@
   "section_topics": {
     "links": [
       {
+        "title": "Reference architecture for automotive industry",
+        "href": "/docs/industry-ref-arch?topic=industry-ref-arch-automotive"
+      }
+      {
         "title": "Reference architecture for banking industry",
         "href": "/docs/industry-ref-arch?topic=industry-ref-arch-banking-app"
       },
       {
-        "title": "Reference architecture for insurance industry",
-        "href": "/docs/industry-ref-arch?topic=industry-ref-arch-insurance"
-      },
-      {
-        "title": "Reference architecture for telecommunications industry",
-        "href": "/docs/industry-ref-arch?topic=industry-ref-arch-telecommunications"
+        "title": "Reference architecture for manufacturing industry",
+        "href": "/docs/industry-ref-arch?topic=industry-ref-arch-manufacturing"
       }
     ]
   },
 
   "section_highlights": [
     {
-      "title": "IBM Solutions",
-      "description": "IBM trusted solutions to solve your business challenges.",
-      "href": "https://www.ibm.com/solutions",
+      "title": "IBM Cloud Solutions",
+      "description": "Run enterprise, mission-critical workloads in IBM Cloud",
+      "href": "https://www.ibm.com/cloud/solutions",
       "type": "training",
       "recommended": true
     },
     {
-      "title": "IBM Cloud Solutions",
-      "description": "Run enterprise, mission-critical workloads in IBM Cloud",
-      "href": "https://www.ibm.com/cloud/solutions",
+      "title": "IBM Solutions",
+      "description": "IBM trusted solutions to solve your business challenges.",
+      "href": "https://www.ibm.com/solutions",
       "type": "training",
       "recommended": true
     }
